@@ -50,15 +50,14 @@ npm run dev       # http://localhost:5173
 ## Automatic updates and hosting
 
 `.github/workflows/update.yml` runs on weekday mornings just after Statistics Finland's 08:00 releases and
-every afternoon. It fetches data and commits any changes to the default branch.
+every afternoon. It fetches data, commits any changes to the default branch and publishes the site on
+GitHub Pages at **https://sjmpen.github.io/FinnDash/**. Pushes to the default branch also republish.
 
-To view it:
+One-time setup: *Settings → Pages → Build and deployment → Source: GitHub Actions*. To stop publishing,
+set the repository variable `DEPLOY_PAGES` to `false` (*Settings → Secrets and variables → Actions → Variables*).
+A manual refresh is *Actions → Päivitä data → Run workflow*.
 
-- **Locally:** `git pull` and open the dev or preview server.
-- **GitHub Pages:** enable Pages (*Settings → Pages → Source: GitHub Actions*) and set the repository
-  variable `DEPLOY_PAGES` to `true` (*Settings → Secrets and variables → Actions → Variables*). The workflow
-  then publishes the site after each data change. Pages for a **private** repository requires a paid
-  GitHub plan; on a public repository the site is public too (the data is all public).
+Locally: `git pull` and open the dev or preview server.
 
 ## Adding a series
 
