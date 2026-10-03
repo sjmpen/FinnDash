@@ -1,0 +1,32 @@
+{
+  "name": "finndash",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Suomen talouden tilannekuva – dashboard Tilastokeskuksen, Tullin ja EKP:n avoimesta datasta",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "data": "tsx pipeline/index.ts",
+    "data:geo": "tsx pipeline/geo.ts"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "echarts": "^6.1.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2"
+  }
+}

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <title>FinnDash – Suomen talous</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect x='2' y='13' width='4' height='9' rx='1.5' fill='%232a78d6'/%3E%3Crect x='10' y='8' width='4' height='14' rx='1.5' fill='%232a78d6' opacity='.75'/%3E%3Crect x='18' y='3' width='4' height='19' rx='1.5' fill='%232a78d6' opacity='.5'/%3E%3C/svg%3E"
+    />
+    <style>
+      /* Pre-paint background so the page does not flash before the theme script runs. */
+      html { background: #f4f4f1; }
+      @media (prefers-color-scheme: dark) { html { background: #0d0d0d; } }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
