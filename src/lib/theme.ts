@@ -22,6 +22,8 @@ export interface Tokens {
   other: string;
   /** Sequential ramp, low → high. */
   sequential: string[];
+  /** Diverging poles and neutral midpoint (falls ← mid → rises). */
+  diverging: { neg: string; mid: string; pos: string };
 }
 
 const LIGHT: Tokens = {
@@ -41,6 +43,7 @@ const LIGHT: Tokens = {
   series: ['#2a78d6', '#eb6834', '#1baf7a', '#eda100', '#e87ba4', '#008300', '#4a3aa7', '#e34948'],
   other: '#b5b3ac',
   sequential: ['#cde2fb', '#9ec5f4', '#6da7ec', '#3987e5', '#256abf', '#184f95', '#0d366b'],
+  diverging: { neg: '#d03b3b', mid: '#f0efec', pos: '#256abf' },
 };
 
 const DARK: Tokens = {
@@ -60,6 +63,7 @@ const DARK: Tokens = {
   series: ['#3987e5', '#d95926', '#199e70', '#c98500', '#d55181', '#008300', '#9085e9', '#e66767'],
   other: '#5c5b57',
   sequential: ['#184f95', '#1c5cab', '#2a78d6', '#5598e7', '#86b6ef', '#b7d3f6', '#e3eefc'],
+  diverging: { neg: '#e66767', mid: '#383835', pos: '#3987e5' },
 };
 
 export type ThemeMode = 'auto' | 'light' | 'dark';

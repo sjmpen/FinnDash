@@ -10,6 +10,7 @@ import { TabBuilder } from './builder.ts';
 import { buildOverview } from './tabs/overview.ts';
 import { buildHousing } from './tabs/housing.ts';
 import { buildTrade } from './tabs/trade.ts';
+import { buildStocks } from './tabs/stocks.ts';
 
 const OUT_DIR = join(dirname(fileURLToPath(import.meta.url)), '..', 'public', 'data');
 
@@ -17,6 +18,7 @@ const TABS: Record<string, (b: TabBuilder) => Promise<void>> = {
   overview: buildOverview,
   housing: buildHousing,
   trade: buildTrade,
+  stocks: buildStocks,
 };
 
 async function main() {

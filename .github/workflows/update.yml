@@ -4,7 +4,8 @@ name: Päivitä data
 # files when something changed, and publishes the site on GitHub Pages.
 #
 # Statistics Finland publishes at 08:00 Finnish time = 05:00 UTC in summer, 06:00 UTC in
-# winter, so the morning runs cover both. The afternoon run picks up Customs and ECB data.
+# winter, so the morning runs cover both. The evening run comes after the Helsinki stock
+# exchange closes (18:30 Finnish time) and also picks up Customs and ECB data.
 #
 # Scheduled runs always use the default branch. Pushes only rebuild the site, and only for the
 # default branch, whatever it is called.
@@ -12,7 +13,7 @@ on:
   schedule:
     - cron: '15 5 * * 1-5'
     - cron: '15 6 * * 1-5'
-    - cron: '30 15 * * *'
+    - cron: '50 16 * * *'
   workflow_dispatch:
   push:
     paths-ignore:

@@ -3,7 +3,7 @@ import type { Point, Series, TabData } from '../../shared/types.ts';
 
 const REFRESH_MS = 30 * 60 * 1000;
 
-export type TabId = 'overview' | 'housing' | 'trade';
+export type TabId = 'overview' | 'housing' | 'trade' | 'stocks';
 
 /** Loads public/data/<tab>.json and re-checks it every 30 minutes (the page is left open). */
 export function useTabData(tab: TabId) {
@@ -42,6 +42,30 @@ export function latest(s: Series | undefined): Point | undefined {
   if (!s) return undefined;
   for (let i = s.data.length - 1; i >= 0; i--) if (s.data[i][1] !== null) return s.data[i];
   return undefined;
+}
+
+/** Last non-null point on or before a period key (dates compare lexically). */
+export function pointAtOrBefore(s: Series | undefined, period: string): Point | undefined {
+  if (!s) return undefined;
+  for (let i = s.data.length - 1; i >= 0; i--) if (s.data[i][0] <= period && s.data[i][1] !== null) return s.data[i];
+  return undefined;
+}
+
+/** Same date one year earlier, "2026-10-02" → "2025-10-02". */
+export function yearEarlier(date: string): string {
+  return `${Number(date.slice(0, 4)) - 1}${date.slice(4)}`;
+}
+
+/**
+ * Series rebased to 100 at its first point on or after `startTime` (ms), dropping earlier
+ * points – for comparing the performance of series with different levels.
+ */
+export function rebased(s: Series | undefined, startTime: number, toTime: (p: string) => number): Series | undefined {
+  if (!s) return undefined;
+  const pts = s.data.filter(([p, v]) => v !== null && toTime(p) >= startTime);
+  if (!pts.length) return undefined;
+  const base = pts[0][1] as number;
+  return { ...s, unit: 'indeksi', data: pts.map(([p, v]) => [p, ((v as number) / base) * 100] as Point) };
 }
 
 /** Value `lag` observations before the latest non-null one. */

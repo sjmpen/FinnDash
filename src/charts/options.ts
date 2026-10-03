@@ -84,6 +84,11 @@ function axisLabelFormatter(unit: string, decimals: number) {
   };
 }
 
+/** Rough legend length in characters (entries plus their keys and gaps). */
+function legendChars(lines: Line[]): number {
+  return lines.reduce((n, l) => n + (l.name ?? l.series?.label ?? '').length + 5, 0);
+}
+
 /** Line / bar chart over time, one shared y-axis. */
 export function timeChart(ctx: Ctx, lines: Line[], opts: TimeOpts): EChartsCoreOption {
   const { t } = ctx;
@@ -172,7 +177,8 @@ export function timeChart(ctx: Ctx, lines: Line[], opts: TimeOpts): EChartsCoreO
     grid: {
       left: 4,
       right: opts.endLabels ? 44 : 12,
-      top: !showLegend ? 12 : present.length > 4 ? 58 : 34,
+      // Many or long legend entries wrap to a second row on a quarter-width card.
+      top: !showLegend ? 12 : present.length > 4 || legendChars(present) > 90 ? 58 : 34,
       bottom: 4,
       containLabel: true,
     },
@@ -241,12 +247,14 @@ export function timeChart(ctx: Ctx, lines: Line[], opts: TimeOpts): EChartsCoreO
 export function stackedAreaChart(
   ctx: Ctx,
   lines: Line[],
-  opts: { unit: string; decimals?: number },
+  opts: { unit: string; decimals?: number; /** Fixed y maximum, e.g. 100 for shares. */ max?: number },
 ): EChartsCoreOption {
   const base = timeChart(ctx, lines, { ...opts, includeZero: true, stacked: true }) as {
     series: Record<string, unknown>[];
     legend: Record<string, unknown>;
+    yAxis: Record<string, unknown>;
   } & EChartsCoreOption;
+  if (opts.max !== undefined) base.yAxis.max = opts.max;
   base.series = base.series.map((s, i) => ({
     ...s,
     stack: 'total',
@@ -458,6 +466,96 @@ export function choropleth(
   };
 }
 
+/**
+ * Market map: rectangles sized by one column (market value), grouped by `row.group` (sector)
+ * and coloured on a diverging scale by another column (price change, clamped to ±range).
+ */
+export function marketMap(
+  ctx: Ctx,
+  table: CategoryTable | undefined,
+  opts: { size: string; color: string; range: number; maxItems: number; extra: Record<string, string> },
+): EChartsCoreOption {
+  const { t } = ctx;
+  if (!table) return {};
+  const { neg, mid, pos } = t.diverging;
+  const rows = [...table.rows]
+    .filter((r) => (r.values[opts.size] ?? 0) > 0)
+    .sort((a, b) => (b.values[opts.size] ?? 0) - (a.values[opts.size] ?? 0))
+    .slice(0, opts.maxItems);
+  const fill = (v: number | null) => {
+    if (v === null) return mid;
+    const f = Math.max(-1, Math.min(1, v / opts.range));
+    return f >= 0 ? rampColor([mid, pos], f) : rampColor([mid, neg], -f);
+  };
+  const groups = new Map<string, typeof rows>();
+  for (const r of rows) groups.set(r.group ?? 'Muut', [...(groups.get(r.group ?? 'Muut') ?? []), r]);
+  const byKey = new Map(rows.map((r) => [r.key, r]));
+  const total = rows.reduce((a, r) => a + (r.values[opts.size] ?? 0), 0) || 1;
+
+  return {
+    animation: false,
+    textStyle: baseText(t),
+    tooltip: {
+      ...tooltipBase(t),
+      trigger: 'item',
+      formatter: (p: { data: { key?: string; name: string } }) => {
+        const r = p.data.key ? byKey.get(p.data.key) : undefined;
+        if (!r) return `<div style="font-weight:600">${esc(p.data.name)}</div>`;
+        const lines = Object.entries(opts.extra).map(([col, unit]) =>
+          tooltipRow(
+            'transparent',
+            fmtUnit(r.values[col], unit, unit === '%' ? 1 : 2, unit === '%'),
+            table.columns[col],
+          ),
+        );
+        return `<div style="font-weight:600">${esc(r.label)}</div><div style="opacity:.75;margin-bottom:4px">${esc(r.group ?? '')}</div>${lines.join('')}`;
+      },
+    },
+    series: [
+      {
+        type: 'treemap',
+        roam: false,
+        nodeClick: false,
+        breadcrumb: { show: false },
+        left: 0,
+        right: 0,
+        top: 0,
+        bottom: 0,
+        squareRatio: 0.9,
+        upperLabel: { show: true, height: 20, color: t.ink2, fontFamily: FONT, fontSize: 11, fontWeight: 600 },
+        levels: [
+          { itemStyle: { borderColor: t.surface, borderWidth: 0, gapWidth: 3 } },
+          { itemStyle: { borderColor: t.surface, borderWidth: 2, gapWidth: 1 }, upperLabel: { show: true } },
+          { itemStyle: { borderColor: t.surface, borderWidth: 0, gapWidth: 0 } },
+        ],
+        data: [...groups.entries()].map(([group, items]) => ({
+          name: group,
+          itemStyle: { color: t.surfaceRaised, borderColor: t.surface },
+          children: items.map((r) => {
+            const v = r.values[opts.color];
+            const bg = fill(v);
+            return {
+              key: r.key,
+              name: r.label,
+              value: r.values[opts.size],
+              itemStyle: { color: bg },
+              label: {
+                // Small boxes would only show a clipped fragment: leave them to the tooltip.
+                show: (r.values[opts.size] ?? 0) / total >= 0.008,
+                color: luminance(bg) > 0.4 ? '#0b0b0b' : '#ffffff',
+                fontFamily: FONT,
+                fontSize: 12,
+                overflow: 'truncate',
+                formatter: `{b}\n${fmt(v, 1, true)} %`,
+              },
+            };
+          }),
+        })),
+      },
+    ],
+  };
+}
+
 /** Linear interpolation along a colour ramp (same mapping as a continuous visualMap). */
 function rampColor(ramp: string[], f: number): string {
   const x = Math.min(1, Math.max(0, f)) * (ramp.length - 1);
@@ -467,6 +565,16 @@ function rampColor(ramp: string[], f: number): string {
   const b = hexRgb(ramp[i + 1]);
   const mix = a.map((c, j) => Math.round(c + (b[j] - c) * k));
   return `rgb(${mix.join(',')})`;
+}
+
+/** Relative luminance of a "#rrggbb" or "rgb(r,g,b)" colour (0 = black, 1 = white). */
+function luminance(color: string): number {
+  const rgb = color.startsWith('#') ? hexRgb(color) : (color.match(/\d+/g) ?? []).map(Number);
+  const [r, g, b] = rgb.map((c) => {
+    const x = c / 255;
+    return x <= 0.03928 ? x / 12.92 : ((x + 0.055) / 1.055) ** 2.4;
+  });
+  return 0.2126 * r + 0.7152 * g + 0.0722 * b;
 }
 
 function hexRgb(hex: string): number[] {

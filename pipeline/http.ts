@@ -7,6 +7,7 @@ const HOST_GAP: Record<string, number> = {
   'pxdata.stat.fi': 1100,
   'uljas.tulli.fi': 500,
   'data-api.ecb.europa.eu': 300,
+  'api.nasdaq.com': 250,
 };
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));

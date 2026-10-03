@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import * as echarts from 'echarts/core';
-import { BarChart, LineChart, MapChart } from 'echarts/charts';
+import { BarChart, LineChart, MapChart, TreemapChart } from 'echarts/charts';
 import {
   GridComponent,
   LegendComponent,
@@ -15,6 +15,7 @@ echarts.use([
   BarChart,
   LineChart,
   MapChart,
+  TreemapChart,
   GridComponent,
   LegendComponent,
   MarkLineComponent,
