@@ -8,6 +8,7 @@ Data comes from open APIs and is refreshed automatically every day.
 | **Yleiskatsaus** (overview) | Inflation (CPI, HICP, HICP flash), what drives inflation, GDP and the monthly output indicator, unemployment, interest rates, consumer confidence, wages, bankruptcies, public debt |
 | **Asuminen** (housing) | Prices of old dwellings (monthly, quarterly since 2005, by region on a map), transactions and selling time, rents, mortgage rates and volumes, housing starts, building costs |
 | **Ulkomaankauppa** (trade) | Goods exports/imports and balance, products, top partner countries, services trade, current account |
+| **Osakemarkkinat** (stocks) | Market map of the largest Helsinki companies, OMX Helsinki indices with and without dividends, Helsinki vs Stockholm, Copenhagen and the US, the 25 largest companies, sector returns, who owns Finnish listed shares |
 
 Every chart has a **Taulukko** button that shows the numbers as a table, and every card links to its source table.
 The time range (3–20 years) and theme (auto/light/dark) are in the top bar and are remembered by the browser.
@@ -19,8 +20,9 @@ The time range (3–20 years) and theme (auto/light/dark) are in the top bar and
 | [Tilastokeskus](https://stat.fi) (Statistics Finland) | Most series | [PxWeb API](https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/) (JSON-stat2), no key |
 | [Tulli](https://tulli.fi/tilastot) (Finnish Customs) | Goods trade by country and product | [Uljas API](https://tilastot.tulli.fi/en/uljas-statistical-database/uljas-api), no key |
 | [EKP / ECB](https://data.ecb.europa.eu) | Euribor, ECB deposit rate, 10-year yield, Finnish mortgage rates and volumes (Bank of Finland data) | SDMX REST API, no key |
+| [Nasdaq](https://www.nasdaq.com/european-market-activity) | Index history (10 years), Helsinki share prices, market values and returns | JSON API behind nasdaq.com – **unofficial**, may change without notice |
 
-All data is licensed CC BY 4.0 by its publisher.
+Statistics Finland, Customs and ECB data is licensed CC BY 4.0. Nasdaq market data is shown for personal use.
 
 ## How it works
 

@@ -1,5 +1,5 @@
 import type { Series } from '../../shared/types.ts';
-import { latest, lastN, previous } from '../lib/data.ts';
+import { latest, lastN, pointAtOrBefore, previous, yearEarlier } from '../lib/data.ts';
 import { fmtParts, fmtUnit, periodLong } from '../lib/format.ts';
 
 export type Good = 'up' | 'down' | 'neutral';
@@ -48,7 +48,11 @@ export function KpiTile({
 }: Props) {
   const last = latest(series);
   const effLag = lag ?? (series ? PER_YEAR[series.freq] : 12);
-  const prev = previous(series, effLag);
+  // Daily series compare by calendar date (a year has ~250 trading days, not 365 points).
+  const prev =
+    series?.freq === 'D' && lag === undefined
+      ? last && pointAtOrBefore(series, yearEarlier(last[0]))
+      : previous(series, effLag);
   const value = last?.[1] ?? null;
   const prevValue = prev?.[1] ?? null;
 

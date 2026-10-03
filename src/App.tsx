@@ -6,11 +6,13 @@ import type { Ctx } from './charts/options.ts';
 import { Overview } from './tabs/Overview.tsx';
 import { Housing } from './tabs/Housing.tsx';
 import { Trade } from './tabs/Trade.tsx';
+import { Stocks } from './tabs/Stocks.tsx';
 
 const TABS: { id: TabId; hash: string; label: string }[] = [
   { id: 'overview', hash: 'yleiskatsaus', label: 'Yleiskatsaus' },
   { id: 'housing', hash: 'asuminen', label: 'Asuminen' },
   { id: 'trade', hash: 'ulkomaankauppa', label: 'Ulkomaankauppa' },
+  { id: 'stocks', hash: 'osakemarkkinat', label: 'Osakemarkkinat' },
 ];
 
 const RANGES = [
@@ -135,6 +137,7 @@ export function App() {
         {data && data.tab === tab && tab === 'overview' && <Overview data={data} ctx={ctx} />}
         {data && data.tab === tab && tab === 'housing' && <Housing data={data} ctx={ctx} />}
         {data && data.tab === tab && tab === 'trade' && <Trade data={data} ctx={ctx} />}
+        {data && data.tab === tab && tab === 'stocks' && <Stocks data={data} ctx={ctx} />}
       </main>
     </div>
   );

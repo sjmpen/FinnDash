@@ -41,7 +41,8 @@ export interface CategoryTable {
   source: SourceRef;
   /** Value column ids → Finnish column labels. */
   columns: Record<string, string>;
-  rows: { key: string; label: string; values: Record<string, number | null> }[];
+  /** `group` optionally nests rows, e.g. companies within a sector. */
+  rows: { key: string; label: string; group?: string; values: Record<string, number | null> }[];
 }
 
 export interface FetchError {
