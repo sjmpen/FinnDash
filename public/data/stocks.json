@@ -1,6 +1,6 @@
 {
  "tab": "stocks",
- "generated": "2026-10-06T13:16:01.379Z",
+ "generated": "2026-10-06T21:20:47.783Z",
  "series": {
   "helsinki.omxh25": {
    "id": "helsinki.omxh25",
@@ -11,7 +11,7 @@
     "name": "Nasdaq",
     "table": "OMXH25",
     "url": "https://www.nasdaq.com/european-market-activity/indexes/omxh25",
-    "updated": "2026-10-05T16:30:00Z"
+    "updated": "2026-10-06T16:30:00Z"
    },
    "data": [
     ["2016-10-07", 3464.39],
@@ -929,7 +929,8 @@
     ["2026-09-30", 6425.9],
     ["2026-10-01", 6376.58],
     ["2026-10-02", 6416.21],
-    ["2026-10-05", 6395.27]
+    ["2026-10-05", 6395.27],
+    ["2026-10-06", 6461.4]
    ]
   },
   "helsinki.omxhpi": {
@@ -941,7 +942,7 @@
     "name": "Nasdaq",
     "table": "OMXHPI",
     "url": "https://www.nasdaq.com/european-market-activity/indexes/omxhpi",
-    "updated": "2026-10-05T16:30:00Z"
+    "updated": "2026-10-06T16:30:00Z"
    },
    "data": [
     ["2016-10-07", 8551],
@@ -1859,7 +1860,8 @@
     ["2026-09-30", 13664.99],
     ["2026-10-01", 13563.08],
     ["2026-10-02", 13637.47],
-    ["2026-10-05", 13596.38]
+    ["2026-10-05", 13596.38],
+    ["2026-10-06", 13746.36]
    ]
   },
   "helsinki.omxhgi": {
@@ -1871,7 +1873,7 @@
     "name": "Nasdaq",
     "table": "OMXHGI",
     "url": "https://www.nasdaq.com/european-market-activity/indexes/omxhgi",
-    "updated": "2026-10-05T16:30:00Z"
+    "updated": "2026-10-06T16:30:00Z"
    },
    "data": [
     ["2016-10-07", 19401.64],
@@ -2788,7 +2790,8 @@
     ["2026-09-30", 47794.63],
     ["2026-10-01", 47438.16],
     ["2026-10-02", 47698.35],
-    ["2026-10-05", 47562.07]
+    ["2026-10-05", 47562.07],
+    ["2026-10-06", 48088.18]
    ]
   },
   "markets.omxs30": {
@@ -2800,7 +2803,7 @@
     "name": "Nasdaq",
     "table": "OMXS30",
     "url": "https://www.nasdaq.com/european-market-activity/indexes/omxs30",
-    "updated": "2026-10-05T16:30:00Z"
+    "updated": "2026-10-06T16:30:00Z"
    },
    "data": [
     ["2016-10-07", 1451.65],
@@ -3718,7 +3721,8 @@
     ["2026-09-30", 3268.98],
     ["2026-10-01", 3226.59],
     ["2026-10-02", 3260.51],
-    ["2026-10-05", 3257.59]
+    ["2026-10-05", 3257.59],
+    ["2026-10-06", 3282.94]
    ]
   },
   "markets.omxc25": {
@@ -3730,7 +3734,7 @@
     "name": "Nasdaq",
     "table": "OMXC25",
     "url": "https://www.nasdaq.com/european-market-activity/indexes/omxc25",
-    "updated": "2026-10-05T16:30:00Z"
+    "updated": "2026-10-06T16:30:00Z"
    },
    "data": [
     ["2016-12-23", 1007.37],
@@ -4636,7 +4640,8 @@
     ["2026-09-30", 1824.13],
     ["2026-10-01", 1793.49],
     ["2026-10-02", 1819.11],
-    ["2026-10-05", 1810.9]
+    ["2026-10-05", 1810.9],
+    ["2026-10-06", 1821.97]
    ]
   },
   "markets.omxn40": {
@@ -4648,7 +4653,7 @@
     "name": "Nasdaq",
     "table": "OMXN40",
     "url": "https://www.nasdaq.com/european-market-activity/indexes/omxn40",
-    "updated": "2026-10-05T16:30:00Z"
+    "updated": "2026-10-06T16:30:00Z"
    },
    "data": [
     ["2016-10-07", 1430.86],
@@ -5582,7 +5587,8 @@
     ["2026-09-30", 2597.48],
     ["2026-10-01", 2569.11],
     ["2026-10-02", 2596.93],
-    ["2026-10-05", 2595.9]
+    ["2026-10-05", 2595.9],
+    ["2026-10-06", 2619.44]
    ]
   },
   "markets.ndx": {
@@ -5594,7 +5600,7 @@
     "name": "Nasdaq",
     "table": "NDX",
     "url": "https://www.nasdaq.com/market-activity/index/ndx",
-    "updated": "2026-10-05T16:30:00Z"
+    "updated": "2026-10-06T16:30:00Z"
    },
    "data": [
     ["2016-10-07", 4864.52],
@@ -6514,7 +6520,8 @@
     ["2026-09-30", 30408.5],
     ["2026-10-01", 30501.56],
     ["2026-10-02", 30807.93],
-    ["2026-10-05", 31076.44]
+    ["2026-10-05", 31076.44],
+    ["2026-10-06", 31224.47]
    ]
   },
   "ownership.foreign": {
@@ -7243,12 +7250,12 @@
    "id": "helsinki.returns",
    "label": "Indeksien tuotot",
    "unit": "%",
-   "period": "2026-10-05",
+   "period": "2026-10-06",
    "source": {
     "name": "Nasdaq",
     "table": "OMXH25",
     "url": "https://www.nasdaq.com/european-market-activity/indexes/omxh25",
-    "updated": "2026-10-05T16:30:00Z"
+    "updated": "2026-10-06T16:30:00Z"
    },
    "columns": {
     "d1": "Päivä, %",
@@ -7263,36 +7270,36 @@
      "key": "omxh25",
      "label": "OMX Helsinki 25",
      "values": {
-      "d1": -0.3,
-      "w1": -1.5,
-      "m1": -0.9,
-      "ytd": 12.1,
-      "y1": 26.7,
-      "y5": 19.6
+      "d1": 1,
+      "w1": 0,
+      "m1": 0.1,
+      "ytd": 13.3,
+      "y1": 28.8,
+      "y5": 22.4
      }
     },
     {
      "key": "omxhpi",
      "label": "OMX Helsinki (kaikki osakkeet)",
      "values": {
-      "d1": -0.3,
-      "w1": -1.5,
-      "m1": -0.7,
-      "ytd": 10.2,
-      "y1": 22.8,
-      "y5": 9.3
+      "d1": 1.1,
+      "w1": 0,
+      "m1": 0.4,
+      "ytd": 11.4,
+      "y1": 24.7,
+      "y5": 12
      }
     },
     {
      "key": "omxhgi",
      "label": "OMX Helsinki, osingot sijoitettuna",
      "values": {
-      "d1": -0.3,
-      "w1": -1.4,
-      "m1": -0.5,
-      "ytd": 14.2,
-      "y1": 27.9,
-      "y5": 36.9
+      "d1": 1.1,
+      "w1": 0.1,
+      "m1": 0.6,
+      "ytd": 15.5,
+      "y1": 29.9,
+      "y5": 40.2
      }
     }
    ]
@@ -7301,12 +7308,12 @@
    "id": "markets.returns",
    "label": "Indeksien tuotot",
    "unit": "%",
-   "period": "2026-10-05",
+   "period": "2026-10-06",
    "source": {
     "name": "Nasdaq",
     "table": "OMXS30",
     "url": "https://www.nasdaq.com/european-market-activity/indexes/omxs30",
-    "updated": "2026-10-05T16:30:00Z"
+    "updated": "2026-10-06T16:30:00Z"
    },
    "columns": {
     "d1": "Päivä, %",
@@ -7321,48 +7328,48 @@
      "key": "omxs30",
      "label": "OMX Stockholm 30",
      "values": {
-      "d1": -0.1,
-      "w1": -0.7,
-      "m1": -0.8,
-      "ytd": 13,
-      "y1": 19.4,
-      "y5": 44.5
+      "d1": 0.8,
+      "w1": -0.1,
+      "m1": 0,
+      "ytd": 13.9,
+      "y1": 19.8,
+      "y5": 47.8
      }
     },
     {
      "key": "omxc25",
      "label": "OMX Copenhagen 25",
      "values": {
-      "d1": -0.5,
-      "w1": -1.3,
-      "m1": -5.3,
-      "ytd": -0.7,
-      "y1": 6.9,
-      "y5": -1.6
+      "d1": 0.6,
+      "w1": -0.6,
+      "m1": -4.7,
+      "ytd": -0.1,
+      "y1": 7.1,
+      "y5": -1
      }
     },
     {
      "key": "omxn40",
      "label": "OMX Nordic 40",
      "values": {
-      "d1": 0,
-      "w1": -0.5,
-      "m1": -3.9,
-      "ytd": 3.3,
-      "y1": 8.5,
-      "y5": 13.5
+      "d1": 0.9,
+      "w1": 0.4,
+      "m1": -3.1,
+      "ytd": 4.2,
+      "y1": 8.8,
+      "y5": 15.7
      }
     },
     {
      "key": "ndx",
      "label": "Nasdaq-100 (USA)",
      "values": {
-      "d1": 0.9,
-      "w1": 2.6,
-      "m1": 5.2,
-      "ytd": 23.1,
-      "y1": 25.4,
-      "y5": 111.8
+      "d1": 0.5,
+      "w1": 2.9,
+      "m1": 5.7,
+      "ytd": 23.7,
+      "y1": 25,
+      "y5": 111.5
      }
     }
    ]
@@ -7371,12 +7378,12 @@
    "id": "sectors.returns",
    "label": "Toimialaindeksien tuotot",
    "unit": "%",
-   "period": "2026-10-05",
+   "period": "2026-10-06",
    "source": {
     "name": "Nasdaq",
     "table": "Helsingin toimialaindeksit (PI)",
     "url": "https://www.nasdaq.com/european-market-activity/stocks/screener?exchange=HEL",
-    "updated": "2026-10-05T16:30:00Z"
+    "updated": "2026-10-06T16:30:00Z"
    },
    "columns": {
     "m1": "Kuukausi, %",
@@ -7388,72 +7395,72 @@
      "key": "Technology",
      "label": "Teknologia",
      "values": {
-      "m1": -4.2,
-      "ytd": -25.3,
-      "y1": -18.6
+      "m1": -3,
+      "ytd": -24.3,
+      "y1": -16.7
      }
     },
     {
      "key": "Telecommunications",
      "label": "Tietoliikenne",
      "values": {
-      "m1": 5.3,
-      "ytd": 52.1,
-      "y1": 85.6
+      "m1": 9.3,
+      "ytd": 58,
+      "y1": 90.6
      }
     },
     {
      "key": "Health Care",
      "label": "Terveydenhuolto",
      "values": {
-      "m1": -0.2,
-      "ytd": 13.9,
-      "y1": 10.9
+      "m1": 0.7,
+      "ytd": 14.9,
+      "y1": 6.9
      }
     },
     {
      "key": "Financials",
      "label": "Rahoitus",
      "values": {
-      "m1": -5.5,
-      "ytd": -1,
-      "y1": 11.5
+      "m1": -5.8,
+      "ytd": -1.3,
+      "y1": 11
      }
     },
     {
      "key": "Real Estate",
      "label": "Kiinteistöt",
      "values": {
-      "m1": -12.1,
-      "ytd": -31.1,
-      "y1": -29.4
+      "m1": -11.8,
+      "ytd": -30.9,
+      "y1": -28.5
      }
     },
     {
      "key": "Consumer Discretionary",
      "label": "Kulutustavarat",
      "values": {
-      "m1": -4.4,
-      "ytd": 5.9,
-      "y1": 5.2
+      "m1": -4.2,
+      "ytd": 6.1,
+      "y1": 6.5
      }
     },
     {
      "key": "Consumer Staples",
      "label": "Päivittäistavarat",
      "values": {
-      "m1": -1.1,
-      "ytd": 12,
-      "y1": 19.2
+      "m1": -0.8,
+      "ytd": 12.4,
+      "y1": 20.3
      }
     },
     {
      "key": "Industrials",
      "label": "Teollisuus",
      "values": {
-      "m1": -1,
-      "ytd": -2.1,
-      "y1": 9.4
+      "m1": 1.2,
+      "ytd": 0.1,
+      "y1": 13.9
      }
     },
     {
@@ -7462,25 +7469,25 @@
      "values": {
       "m1": -2.8,
       "ytd": -2.9,
-      "y1": 2.9
+      "y1": 6.5
      }
     },
     {
      "key": "Energy",
      "label": "Energia",
      "values": {
-      "m1": 1.5,
-      "ytd": 67.2,
-      "y1": 100.9
+      "m1": -0.1,
+      "ytd": 64.5,
+      "y1": 96.2
      }
     },
     {
      "key": "Utilities",
      "label": "Yleishyödylliset",
      "values": {
-      "m1": 12.1,
-      "ytd": 28.8,
-      "y1": 43.2
+      "m1": 11.6,
+      "ytd": 28.3,
+      "y1": 42
      }
     }
    ]
@@ -7489,12 +7496,12 @@
    "id": "companies.all",
    "label": "Helsingin pörssin yhtiöt",
    "unit": "milj. €",
-   "period": "2026-10-05",
+   "period": "2026-10-06",
    "source": {
     "name": "Nasdaq",
     "table": "Nasdaq Helsinki, päälista",
     "url": "https://www.nasdaq.com/european-market-activity/stocks/screener?exchange=HEL",
-    "updated": "2026-10-05T16:30:00Z"
+    "updated": "2026-10-06T16:30:00Z"
    },
    "columns": {
     "mcap": "Markkina-arvo, milj. €",
@@ -7511,13 +7518,13 @@
      "label": "Nordea Bank",
      "group": "Rahoitus",
      "values": {
-      "mcap": 58477.1,
-      "price": 17.185,
-      "d1": 0.49,
-      "w1": -3.94,
-      "m1": -4.04,
-      "ytd": 6.83,
-      "y1": 23.23
+      "mcap": 58068.8,
+      "price": 17.065,
+      "d1": -0.2,
+      "w1": -4.61,
+      "m1": -4.71,
+      "ytd": 6.09,
+      "y1": 22.37
      }
     },
     {
@@ -7525,13 +7532,13 @@
      "label": "Nokia",
      "group": "Tietoliikenne",
      "values": {
-      "mcap": 52932,
-      "price": 9.218,
-      "d1": 0.54,
-      "w1": 4.39,
-      "m1": 6.49,
-      "ytd": 65.43,
-      "y1": 122.28
+      "mcap": 55137,
+      "price": 9.602,
+      "d1": 4.73,
+      "w1": 8.74,
+      "m1": 10.92,
+      "ytd": 72.32,
+      "y1": 131.54
      }
     },
     {
@@ -7540,8 +7547,8 @@
      "group": "Energia",
      "values": {
       "mcap": 24560.9,
-      "price": 32,
-      "d1": -1.38,
+      "price": 31.93,
+      "d1": -1.6,
       "w1": -6.52,
       "m1": -0.09,
       "ytd": 64.5,
@@ -7553,13 +7560,13 @@
      "label": "KONE",
      "group": "Teollisuus",
      "values": {
-      "mcap": 23429.8,
-      "price": 51.7,
-      "d1": 2.01,
-      "w1": -0.03,
-      "m1": 0.38,
-      "ytd": -14.63,
-      "y1": -10.83
+      "mcap": 23547.6,
+      "price": 51.96,
+      "d1": 2.52,
+      "w1": 0.46,
+      "m1": 0.89,
+      "ytd": -14.2,
+      "y1": -10.38
      }
     },
     {
@@ -7567,13 +7574,13 @@
      "label": "Sampo",
      "group": "Rahoitus",
      "values": {
-      "mcap": 23355.8,
-      "price": 8.79,
-      "d1": -0.67,
-      "w1": -0.69,
-      "m1": -9.11,
-      "ytd": -14.83,
-      "y1": -8.41
+      "mcap": 23318.7,
+      "price": 8.784,
+      "d1": -0.74,
+      "w1": -0.85,
+      "m1": -9.25,
+      "ytd": -14.96,
+      "y1": -8.55
      }
     },
     {
@@ -7581,13 +7588,13 @@
      "label": "Fortum",
      "group": "Yleishyödylliset",
      "values": {
-      "mcap": 20771.7,
-      "price": 23.22,
-      "d1": -1.48,
-      "w1": -2.6,
-      "m1": 10.34,
-      "ytd": 27.33,
-      "y1": 41.89
+      "mcap": 21067.8,
+      "price": 23.48,
+      "d1": -0.38,
+      "w1": -1.22,
+      "m1": 11.91,
+      "ytd": 29.15,
+      "y1": 43.91
      }
     },
     {
@@ -7595,13 +7602,13 @@
      "label": "Wärtsilä",
      "group": "Teollisuus",
      "values": {
-      "mcap": 17988.4,
-      "price": 30.4,
-      "d1": 2.77,
-      "w1": 7.19,
-      "m1": 4.39,
-      "ytd": 0,
-      "y1": 21.64
+      "mcap": 18219.2,
+      "price": 30.79,
+      "d1": 4.09,
+      "w1": 8.56,
+      "m1": 5.73,
+      "ytd": 1.28,
+      "y1": 23.2
      }
     },
     {
@@ -7609,13 +7616,13 @@
      "label": "Telia Company",
      "group": "Tietoliikenne",
      "values": {
-      "mcap": 15292,
-      "price": 3.889,
-      "d1": -0.66,
-      "w1": -3.01,
-      "m1": -2.48,
-      "ytd": 6.57,
-      "y1": 20.77
+      "mcap": 15288,
+      "price": 3.888,
+      "d1": -0.68,
+      "w1": -3.04,
+      "m1": -2.5,
+      "ytd": 6.54,
+      "y1": 20.74
      }
     },
     {
@@ -7623,13 +7630,13 @@
      "label": "Metso",
      "group": "Teollisuus",
      "values": {
-      "mcap": 14349.5,
-      "price": 17.31,
-      "d1": 2.54,
-      "w1": 2.42,
-      "m1": -2.42,
-      "ytd": 15.55,
-      "y1": 45.95
+      "mcap": 14324.6,
+      "price": 17.28,
+      "d1": 2.36,
+      "w1": 2.24,
+      "m1": -2.59,
+      "ytd": 15.35,
+      "y1": 45.69
      }
     },
     {
@@ -7637,13 +7644,13 @@
      "label": "UPM-Kymmene",
      "group": "Perusteollisuus",
      "values": {
-      "mcap": 12824,
-      "price": 24.3,
-      "d1": 0.24,
-      "w1": -3.72,
-      "m1": 0.24,
-      "ytd": -1.97,
-      "y1": 2.92
+      "mcap": 12765.9,
+      "price": 24.19,
+      "d1": -0.2,
+      "w1": -4.16,
+      "m1": -0.2,
+      "ytd": -2.42,
+      "y1": 2.45
      }
     },
     {
@@ -7651,13 +7658,13 @@
      "label": "Orion",
      "group": "Terveydenhuolto",
      "values": {
-      "mcap": 11727.5,
-      "price": 83.15,
-      "d1": 2.84,
-      "w1": -1.01,
-      "m1": 4.19,
-      "ytd": 30.63,
-      "y1": 27.33
+      "mcap": 11486,
+      "price": 81.35,
+      "d1": 0.61,
+      "w1": -3.15,
+      "m1": 1.94,
+      "ytd": 27.8,
+      "y1": 24.57
      }
     },
     {
@@ -7665,13 +7672,13 @@
      "label": "SSAB",
      "group": "Perusteollisuus",
      "values": {
-      "mcap": 9192.8,
-      "price": 9.224,
-      "d1": 1.18,
-      "w1": 0,
-      "m1": -3.02,
-      "ytd": 43.38,
-      "y1": 60.52
+      "mcap": 9159,
+      "price": 9.196,
+      "d1": 0.87,
+      "w1": -0.47,
+      "m1": -3.48,
+      "ytd": 42.7,
+      "y1": 59.76
      }
     },
     {
@@ -7679,13 +7686,13 @@
      "label": "Kesko",
      "group": "Päivittäistavarat",
      "values": {
-      "mcap": 9026.6,
-      "price": 22.8,
-      "d1": 0.52,
-      "w1": -1.89,
-      "m1": 0.7,
-      "ytd": 18.44,
-      "y1": 25.89
+      "mcap": 8997.5,
+      "price": 22.74,
+      "d1": 0.26,
+      "w1": -2.15,
+      "m1": 0.44,
+      "ytd": 18.12,
+      "y1": 25.56
      }
     },
     {
@@ -7693,13 +7700,13 @@
      "label": "Stora Enso",
      "group": "Teollisuus",
      "values": {
-      "mcap": 7850.1,
-      "price": 9.964,
-      "d1": 1.03,
-      "w1": -4.05,
-      "m1": -2.12,
-      "ytd": -6.92,
-      "y1": 4.31
+      "mcap": 7859.4,
+      "price": 9.962,
+      "d1": 1.01,
+      "w1": -4.07,
+      "m1": -2.14,
+      "ytd": -6.94,
+      "y1": 4.29
      }
     },
     {
@@ -7707,13 +7714,13 @@
      "label": "Konecranes",
      "group": "Teollisuus",
      "values": {
-      "mcap": 7510.2,
-      "price": 31.6,
-      "d1": 0.89,
-      "w1": -1.43,
-      "m1": 6.54,
-      "ytd": 0.95,
-      "y1": 32.12
+      "mcap": 7529.2,
+      "price": 31.68,
+      "d1": 1.14,
+      "w1": -1.18,
+      "m1": 6.81,
+      "ytd": 1.21,
+      "y1": 32.46
      }
     },
     {
@@ -7721,13 +7728,13 @@
      "label": "Elisa",
      "group": "Tietoliikenne",
      "values": {
-      "mcap": 5913.6,
-      "price": 35.34,
-      "d1": -1.88,
-      "w1": -3.86,
-      "m1": -0.33,
-      "ytd": -6.35,
-      "y1": -20.44
+      "mcap": 5826.6,
+      "price": 34.82,
+      "d1": -3.33,
+      "w1": -5.27,
+      "m1": -1.8,
+      "ytd": -7.73,
+      "y1": -21.61
      }
     },
     {
@@ -7735,13 +7742,13 @@
      "label": "Valmet",
      "group": "Teollisuus",
      "values": {
-      "mcap": 5133.6,
-      "price": 27.82,
-      "d1": 1.31,
-      "w1": -2.18,
-      "m1": -2.79,
-      "ytd": -1.8,
-      "y1": -1.27
+      "mcap": 5104.1,
+      "price": 27.66,
+      "d1": 0.72,
+      "w1": -2.74,
+      "m1": -3.35,
+      "ytd": -2.36,
+      "y1": -1.84
      }
     },
     {
@@ -7749,13 +7756,13 @@
      "label": "Hiab",
      "group": "Teollisuus",
      "values": {
-      "mcap": 3250.2,
-      "price": 58.9,
-      "d1": 1.99,
-      "w1": 1.55,
-      "m1": -4.3,
-      "ytd": 18.94,
-      "y1": 15.26
+      "mcap": 3261.3,
+      "price": 59.1,
+      "d1": 2.33,
+      "w1": 1.89,
+      "m1": -3.98,
+      "ytd": 19.34,
+      "y1": 15.65
      }
     },
     {
@@ -7763,13 +7770,13 @@
      "label": "Mandatum",
      "group": "Rahoitus",
      "values": {
-      "mcap": 3074.6,
-      "price": 6.11,
-      "d1": 1.07,
-      "w1": -0.4,
-      "m1": -3.62,
-      "ytd": -11.24,
-      "y1": 6.89
+      "mcap": 3059.5,
+      "price": 6.08,
+      "d1": 0.57,
+      "w1": -0.89,
+      "m1": -4.1,
+      "ytd": -11.67,
+      "y1": 6.36
      }
     },
     {
@@ -7777,13 +7784,13 @@
      "label": "Huhtamäki",
      "group": "Teollisuus",
      "values": {
-      "mcap": 2838.4,
-      "price": 26.34,
-      "d1": -0.82,
-      "w1": -11.31,
-      "m1": -16.85,
-      "ytd": -11.43,
-      "y1": -9.54
+      "mcap": 2855.7,
+      "price": 26.5,
+      "d1": -0.22,
+      "w1": -10.77,
+      "m1": -16.35,
+      "ytd": -10.89,
+      "y1": -8.99
      }
     },
     {
@@ -7791,11 +7798,11 @@
      "label": "IQM Quantum Computers",
      "group": "Teknologia",
      "values": {
-      "mcap": 2499.3,
-      "price": 9.495,
-      "d1": 1.65,
-      "w1": 5.14,
-      "m1": 1.71,
+      "mcap": 2529.6,
+      "price": 9.61,
+      "d1": 2.89,
+      "w1": 6.42,
+      "m1": 2.94,
       "ytd": null,
       "y1": null
      }
@@ -7805,13 +7812,13 @@
      "label": "Kemira",
      "group": "Perusteollisuus",
      "values": {
-      "mcap": 2463.6,
-      "price": 16.95,
-      "d1": 1.19,
-      "w1": -1.9,
-      "m1": -3.03,
-      "ytd": -13.43,
-      "y1": -11.62
+      "mcap": 2473.7,
+      "price": 17.02,
+      "d1": 1.61,
+      "w1": -1.5,
+      "m1": -2.63,
+      "ytd": -13.07,
+      "y1": -11.26
      }
     },
     {
@@ -7819,13 +7826,13 @@
      "label": "Outokumpu",
      "group": "Perusteollisuus",
      "values": {
-      "mcap": 2419.5,
-      "price": 5.11,
-      "d1": -0.58,
-      "w1": -5.18,
-      "m1": -10.81,
-      "ytd": 14.17,
-      "y1": 12.56
+      "mcap": 2402.9,
+      "price": 5.08,
+      "d1": -1.16,
+      "w1": -5.83,
+      "m1": -11.42,
+      "ytd": 13.39,
+      "y1": 11.79
      }
     },
     {
@@ -7833,13 +7840,13 @@
      "label": "Kalmar",
      "group": "Teollisuus",
      "values": {
-      "mcap": 2104.2,
-      "price": 38.4,
-      "d1": 0.89,
-      "w1": -1.74,
-      "m1": -4.09,
-      "ytd": -5.27,
-      "y1": 9.02
+      "mcap": 2110.8,
+      "price": 38.52,
+      "d1": 1.2,
+      "w1": -1.43,
+      "m1": -3.79,
+      "ytd": -4.98,
+      "y1": 9.36
      }
     },
     {
@@ -7847,13 +7854,13 @@
      "label": "Nokian Renkaat",
      "group": "Kulutustavarat",
      "values": {
-      "mcap": 2043.5,
-      "price": 14.73,
-      "d1": -0.06,
-      "w1": -6,
-      "m1": -9.69,
-      "ytd": 55.41,
-      "y1": 82.73
+      "mcap": 2057.4,
+      "price": 14.81,
+      "d1": 0.47,
+      "w1": -5.36,
+      "m1": -9.08,
+      "ytd": 56.47,
+      "y1": 83.97
      }
     },
     {
@@ -7861,13 +7868,13 @@
      "label": "Vaisala",
      "group": "Teollisuus",
      "values": {
-      "mcap": 2033.1,
-      "price": 60.9,
-      "d1": 0.16,
-      "w1": 2.35,
-      "m1": 5.91,
-      "ytd": 38.25,
-      "y1": 37.62
+      "mcap": 2053.2,
+      "price": 61.5,
+      "d1": 1.15,
+      "w1": 3.36,
+      "m1": 6.95,
+      "ytd": 39.61,
+      "y1": 38.98
      }
     },
     {
@@ -7875,13 +7882,13 @@
      "label": "Tieto",
      "group": "Teknologia",
      "values": {
-      "mcap": 2024.7,
-      "price": 18.37,
-      "d1": 0.38,
-      "w1": 0.27,
-      "m1": -5.06,
-      "ytd": 0.38,
-      "y1": 17.68
+      "mcap": 2031.3,
+      "price": 18.43,
+      "d1": 0.71,
+      "w1": 0.6,
+      "m1": -4.75,
+      "ytd": 0.71,
+      "y1": 18.06
      }
     },
     {
@@ -7889,13 +7896,13 @@
      "label": "Lumo Kodit",
      "group": "Kiinteistöt",
      "values": {
-      "mcap": 1860.3,
-      "price": 7.025,
-      "d1": -0.14,
-      "w1": -1.88,
-      "m1": -12.51,
-      "ytd": -31.32,
-      "y1": -32.83
+      "mcap": 1870.9,
+      "price": 7.065,
+      "d1": 0.42,
+      "w1": -1.32,
+      "m1": -12.01,
+      "ytd": -30.93,
+      "y1": -32.45
      }
     },
     {
@@ -7903,13 +7910,13 @@
      "label": "Sanoma",
      "group": "Kulutustavarat",
      "values": {
-      "mcap": 1620.9,
-      "price": 9.91,
-      "d1": -0.4,
-      "w1": 1.84,
-      "m1": 1.64,
-      "ytd": 4.31,
-      "y1": -7.38
+      "mcap": 1630.7,
+      "price": 9.97,
+      "d1": 0.2,
+      "w1": 2.46,
+      "m1": 2.25,
+      "ytd": 4.94,
+      "y1": -6.82
      }
     },
     {
@@ -7917,13 +7924,13 @@
      "label": "Puuilo",
      "group": "Kulutustavarat",
      "values": {
-      "mcap": 1425.9,
-      "price": 16.82,
-      "d1": 1.44,
-      "w1": -2.66,
-      "m1": -2.2,
-      "ytd": 32.64,
-      "y1": 17.54
+      "mcap": 1420.9,
+      "price": 16.76,
+      "d1": 1.08,
+      "w1": -3,
+      "m1": -2.55,
+      "ytd": 32.17,
+      "y1": 17.12
      }
     },
     {
@@ -7931,13 +7938,13 @@
      "label": "Bittium",
      "group": "Teollisuus",
      "values": {
-      "mcap": 1385.2,
-      "price": 38.8,
-      "d1": -0.76,
-      "w1": 4.44,
-      "m1": 14.11,
-      "ytd": 29.54,
-      "y1": 164.3
+      "mcap": 1394.2,
+      "price": 39.05,
+      "d1": -0.12,
+      "w1": 5.11,
+      "m1": 14.85,
+      "ytd": 30.38,
+      "y1": 166
      }
     },
     {
@@ -7945,13 +7952,13 @@
      "label": "GRK Infra",
      "group": "Teollisuus",
      "values": {
-      "mcap": 1165.5,
-      "price": 27.3,
-      "d1": 2.63,
-      "w1": 3.4,
-      "m1": 24.94,
-      "ytd": 90.37,
-      "y1": 102.58
+      "mcap": 1178.3,
+      "price": 27.6,
+      "d1": 3.75,
+      "w1": 4.54,
+      "m1": 26.31,
+      "ytd": 92.46,
+      "y1": 104.8
      }
     },
     {
@@ -7959,13 +7966,13 @@
      "label": "Metsä Board",
      "group": "Perusteollisuus",
      "values": {
-      "mcap": 1151,
-      "price": 3.156,
-      "d1": 0.5,
-      "w1": -5.95,
-      "m1": -8.94,
-      "ytd": 1.41,
-      "y1": 3.61
+      "mcap": 1152,
+      "price": 3.158,
+      "d1": 0.57,
+      "w1": -5.89,
+      "m1": -8.88,
+      "ytd": 1.47,
+      "y1": 3.67
      }
     },
     {
@@ -7973,27 +7980,13 @@
      "label": "Alma Media",
      "group": "Kulutustavarat",
      "values": {
-      "mcap": 1083.3,
-      "price": 13.15,
-      "d1": 0,
-      "w1": -3.66,
-      "m1": -2.95,
-      "ytd": -8.36,
-      "y1": -6.73
-     }
-    },
-    {
-     "key": "FSKRS",
-     "label": "Fiskars",
-     "group": "Kulutustavarat",
-     "values": {
-      "mcap": 1044.9,
-      "price": 12.9,
-      "d1": 0.93,
-      "w1": -0.15,
-      "m1": -7.85,
-      "ytd": 1.73,
-      "y1": 4.03
+      "mcap": 1075.1,
+      "price": 13.05,
+      "d1": -0.76,
+      "w1": -4.39,
+      "m1": -3.69,
+      "ytd": -9.05,
+      "y1": -7.44
      }
     },
     {
@@ -8001,27 +7994,27 @@
      "label": "YIT",
      "group": "Teollisuus",
      "values": {
-      "mcap": 1040.8,
-      "price": 4.485,
-      "d1": 3.57,
-      "w1": 3.34,
-      "m1": 28.87,
-      "ytd": 43.65,
-      "y1": 52.65
+      "mcap": 1057,
+      "price": 4.555,
+      "d1": 5.19,
+      "w1": 4.95,
+      "m1": 30.89,
+      "ytd": 45.9,
+      "y1": 55.03
      }
     },
     {
-     "key": "TTALO",
-     "label": "Terveystalo",
-     "group": "Terveydenhuolto",
+     "key": "FSKRS",
+     "label": "Fiskars",
+     "group": "Kulutustavarat",
      "values": {
-      "mcap": 952.8,
-      "price": 7.5,
-      "d1": 1.21,
-      "w1": -0.13,
-      "m1": -5.42,
-      "ytd": -23.31,
-      "y1": -24.54
+      "mcap": 1043.3,
+      "price": 12.88,
+      "d1": 0.78,
+      "w1": -0.3,
+      "m1": -7.99,
+      "ytd": 1.57,
+      "y1": 3.87
      }
     },
     {
@@ -8039,17 +8032,31 @@
      }
     },
     {
+     "key": "TTALO",
+     "label": "Terveystalo",
+     "group": "Terveydenhuolto",
+     "values": {
+      "mcap": 950.2,
+      "price": 7.48,
+      "d1": 0.94,
+      "w1": -0.39,
+      "m1": -5.67,
+      "ytd": -23.51,
+      "y1": -24.74
+     }
+    },
+    {
      "key": "FIA1S",
      "label": "Finnair",
      "group": "Kulutustavarat",
      "values": {
-      "mcap": 910.9,
-      "price": 4.446,
-      "d1": -0.62,
-      "w1": -2.71,
-      "m1": -3.89,
-      "ytd": 41.5,
-      "y1": 49.49
+      "mcap": 912.5,
+      "price": 4.454,
+      "d1": -0.44,
+      "w1": -2.53,
+      "m1": -3.71,
+      "ytd": 41.75,
+      "y1": 49.76
      }
     },
     {
@@ -8057,13 +8064,13 @@
      "label": "Qt Group",
      "group": "Teknologia",
      "values": {
-      "mcap": 883.3,
-      "price": 34.76,
-      "d1": 0.52,
-      "w1": 5.47,
-      "m1": -2.08,
-      "ytd": 5.28,
-      "y1": -27.93
+      "mcap": 881.3,
+      "price": 34.6,
+      "d1": 0.05,
+      "w1": 5.23,
+      "m1": -2.31,
+      "ytd": 5.03,
+      "y1": -28.09
      }
     },
     {
@@ -8071,13 +8078,13 @@
      "label": "Scanfil",
      "group": "Teollisuus",
      "values": {
-      "mcap": 855.5,
-      "price": 13,
-      "d1": -1.36,
-      "w1": 3.01,
-      "m1": 9.24,
-      "ytd": 30.26,
-      "y1": 23.57
+      "mcap": 859.4,
+      "price": 13.06,
+      "d1": -0.91,
+      "w1": 3.48,
+      "m1": 9.74,
+      "ytd": 30.86,
+      "y1": 24.14
      }
     },
     {
@@ -8099,13 +8106,13 @@
      "label": "Ålandsbanken",
      "group": "Rahoitus",
      "values": {
-      "mcap": 665,
-      "price": 42,
-      "d1": 0,
-      "w1": -3.22,
-      "m1": -3.44,
-      "ytd": -6.87,
-      "y1": -4.1
+      "mcap": 661.9,
+      "price": 41.8,
+      "d1": -0.47,
+      "w1": -3.68,
+      "m1": -3.9,
+      "ytd": -7.31,
+      "y1": -4.56
      }
     },
     {
@@ -8113,13 +8120,13 @@
      "label": "Ponsse Oyj 1",
      "group": "Teollisuus",
      "values": {
-      "mcap": 624.4,
-      "price": 22.3,
-      "d1": 1.82,
-      "w1": -1.76,
-      "m1": -6.3,
-      "ytd": -13.89,
-      "y1": -18.61
+      "mcap": 630,
+      "price": 22.5,
+      "d1": 2.73,
+      "w1": -0.88,
+      "m1": -5.46,
+      "ytd": -13.12,
+      "y1": -17.88
      }
     },
     {
@@ -8127,13 +8134,13 @@
      "label": "Oma Säästöpankki",
      "group": "Rahoitus",
      "values": {
-      "mcap": 574.4,
-      "price": 17.22,
-      "d1": 0.11,
-      "w1": 0.11,
-      "m1": 1.65,
-      "ytd": 41.14,
-      "y1": 51.05
+      "mcap": 573.7,
+      "price": 17.2,
+      "d1": 0,
+      "w1": 0,
+      "m1": 1.53,
+      "ytd": 40.98,
+      "y1": 50.87
      }
     },
     {
@@ -8155,12 +8162,12 @@
      "label": "Posti Group",
      "group": "Teollisuus",
      "values": {
-      "mcap": 535.4,
-      "price": 13.22,
-      "d1": 0.45,
-      "w1": -1.04,
-      "m1": 0.91,
-      "ytd": 54.54,
+      "mcap": 531.4,
+      "price": 13.12,
+      "d1": -0.3,
+      "w1": -1.79,
+      "m1": 0.15,
+      "ytd": 53.37,
       "y1": null
      }
     },
@@ -8169,13 +8176,13 @@
      "label": "Olvi",
      "group": "Päivittäistavarat",
      "values": {
-      "mcap": 525.8,
-      "price": 30.95,
-      "d1": 1.97,
-      "w1": -1.43,
-      "m1": -4.62,
-      "ytd": -1.27,
-      "y1": 4.2
+      "mcap": 522.4,
+      "price": 30.75,
+      "d1": 1.31,
+      "w1": -2.07,
+      "m1": -5.23,
+      "ytd": -1.91,
+      "y1": 3.53
      }
     },
     {
@@ -8183,12 +8190,12 @@
      "label": "Framery Group",
      "group": "Kulutustavarat",
      "values": {
-      "mcap": 514.5,
-      "price": 6.5,
-      "d1": -0.99,
-      "w1": -3.27,
-      "m1": 3.45,
-      "ytd": -22.15,
+      "mcap": 516.7,
+      "price": 6.528,
+      "d1": -0.56,
+      "w1": -2.85,
+      "m1": 3.89,
+      "ytd": -21.82,
       "y1": null
      }
     },
@@ -8197,27 +8204,13 @@
      "label": "Kempower",
      "group": "Teollisuus",
      "values": {
-      "mcap": 485.4,
-      "price": 8.74,
-      "d1": -1.07,
-      "w1": -8.09,
-      "m1": -14.64,
-      "ytd": -42.76,
-      "y1": -41.42
-     }
-    },
-    {
-     "key": "TALLINK",
-     "label": "AS Tallink Grupp FDR",
-     "group": "Kulutustavarat",
-     "values": {
-      "mcap": 483.3,
-      "price": 0.65,
-      "d1": 0.3,
-      "w1": 1.56,
-      "m1": 2.2,
-      "ytd": 11.3,
-      "y1": 8.33
+      "mcap": 491.8,
+      "price": 8.855,
+      "d1": 0.22,
+      "w1": -6.88,
+      "m1": -13.52,
+      "ytd": -42.01,
+      "y1": -40.65
      }
     },
     {
@@ -8225,13 +8218,27 @@
      "label": "Musti Group",
      "group": "Kulutustavarat",
      "values": {
-      "mcap": 474.5,
-      "price": 14.15,
-      "d1": -2.41,
-      "w1": -2.07,
-      "m1": -5.03,
-      "ytd": -20.59,
-      "y1": -29.03
+      "mcap": 479.6,
+      "price": 14.3,
+      "d1": -1.37,
+      "w1": -1.03,
+      "m1": -4.02,
+      "ytd": -19.75,
+      "y1": -28.28
+     }
+    },
+    {
+     "key": "TALLINK",
+     "label": "AS Tallink Grupp FDR",
+     "group": "Kulutustavarat",
+     "values": {
+      "mcap": 478.9,
+      "price": 0.644,
+      "d1": -0.61,
+      "w1": 0.62,
+      "m1": 1.25,
+      "ytd": 10.27,
+      "y1": 7.33
      }
     },
     {
@@ -8239,27 +8246,13 @@
      "label": "Tokmanni Group",
      "group": "Kulutustavarat",
      "values": {
-      "mcap": 394.1,
-      "price": 6.695,
-      "d1": 0.29,
-      "w1": -2.47,
-      "m1": -10.73,
-      "ytd": -13.38,
-      "y1": -26.18
-     }
-    },
-    {
-     "key": "MEKKO",
-     "label": "Marimekko",
-     "group": "Kulutustavarat",
-     "values": {
-      "mcap": 376.4,
-      "price": 9.26,
-      "d1": 1.09,
-      "w1": -3.64,
-      "m1": -1.38,
-      "ytd": -28.43,
-      "y1": -25.92
+      "mcap": 394.4,
+      "price": 6.7,
+      "d1": 0.37,
+      "w1": -2.4,
+      "m1": -10.66,
+      "ytd": -13.32,
+      "y1": -26.13
      }
     },
     {
@@ -8267,13 +8260,27 @@
      "label": "Kreate Group",
      "group": "Teollisuus",
      "values": {
-      "mcap": 368.4,
-      "price": 41,
-      "d1": 3.79,
-      "w1": 5.12,
-      "m1": 41.37,
-      "ytd": 226.69,
-      "y1": 300
+      "mcap": 377.4,
+      "price": 42,
+      "d1": 6.32,
+      "w1": 7.69,
+      "m1": 44.82,
+      "ytd": 234.66,
+      "y1": 309.75
+     }
+    },
+    {
+     "key": "MEKKO",
+     "label": "Marimekko",
+     "group": "Kulutustavarat",
+     "values": {
+      "mcap": 376.8,
+      "price": 9.27,
+      "d1": 1.2,
+      "w1": -3.53,
+      "m1": -1.27,
+      "ytd": -28.36,
+      "y1": -25.84
      }
     },
     {
@@ -8281,13 +8288,13 @@
      "label": "Endomines Finland",
      "group": "Perusteollisuus",
      "values": {
-      "mcap": 360.4,
-      "price": 9.38,
-      "d1": -2.59,
-      "w1": -3.79,
-      "m1": -3.19,
-      "ytd": 0.42,
-      "y1": 7.1
+      "mcap": 368.1,
+      "price": 9.58,
+      "d1": -0.51,
+      "w1": -1.74,
+      "m1": -1.13,
+      "ytd": 2.56,
+      "y1": 9.38
      }
     },
     {
@@ -8309,13 +8316,13 @@
      "label": "eQ",
      "group": "Rahoitus",
      "values": {
-      "mcap": 353.6,
-      "price": 8.54,
-      "d1": -2.73,
-      "w1": -2.73,
-      "m1": -5.53,
-      "ytd": -22.71,
-      "y1": -31.4
+      "mcap": 348.6,
+      "price": 8.42,
+      "d1": -4.1,
+      "w1": -4.1,
+      "m1": -6.85,
+      "ytd": -23.8,
+      "y1": -32.36
      }
     },
     {
@@ -8323,13 +8330,13 @@
      "label": "Enento Group",
      "group": "Rahoitus",
      "values": {
-      "mcap": 348.2,
-      "price": 14.7,
-      "d1": 0,
-      "w1": -3.03,
-      "m1": -6.36,
-      "ytd": -7.31,
-      "y1": -3.03
+      "mcap": 347.7,
+      "price": 14.68,
+      "d1": -0.13,
+      "w1": -3.16,
+      "m1": -6.49,
+      "ytd": -7.44,
+      "y1": -3.16
      }
     },
     {
@@ -8351,13 +8358,13 @@
      "label": "Revenio Group",
      "group": "Terveydenhuolto",
      "values": {
-      "mcap": 329.6,
-      "price": 11.34,
-      "d1": 6.37,
-      "w1": 6.8,
-      "m1": -13.94,
-      "ytd": -39.76,
-      "y1": -42.94
+      "mcap": 331.9,
+      "price": 11.38,
+      "d1": 6.75,
+      "w1": 7.56,
+      "m1": -13.33,
+      "ytd": -39.33,
+      "y1": -42.54
      }
     },
     {
@@ -8365,13 +8372,13 @@
      "label": "CapMan",
      "group": "Rahoitus",
      "values": {
-      "mcap": 310.1,
-      "price": 1.75,
-      "d1": 0.45,
-      "w1": -0.68,
-      "m1": -2.99,
-      "ytd": -9.04,
-      "y1": -3.1
+      "mcap": 310.8,
+      "price": 1.754,
+      "d1": 0.68,
+      "w1": -0.45,
+      "m1": -2.77,
+      "ytd": -8.83,
+      "y1": -2.87
      }
     },
     {
@@ -8379,11 +8386,11 @@
      "label": "Auroora Group",
      "group": "Teollisuus",
      "values": {
-      "mcap": 299.2,
-      "price": 9.99,
-      "d1": -4.31,
-      "w1": -15.62,
-      "m1": -5.39,
+      "mcap": 304.9,
+      "price": 10.18,
+      "d1": -2.49,
+      "w1": -14.02,
+      "m1": -3.59,
       "ytd": null,
       "y1": null
      }
@@ -8393,13 +8400,13 @@
      "label": "Atria",
      "group": "Päivittäistavarat",
      "values": {
-      "mcap": 297.8,
-      "price": 15.54,
-      "d1": 0,
-      "w1": -4.07,
-      "m1": -4.19,
-      "ytd": 1.56,
-      "y1": 20
+      "mcap": 298.6,
+      "price": 15.58,
+      "d1": 0.25,
+      "w1": -3.82,
+      "m1": -3.94,
+      "ytd": 1.83,
+      "y1": 20.3
      }
     },
     {
@@ -8421,13 +8428,13 @@
      "label": "Evli",
      "group": "Rahoitus",
      "values": {
-      "mcap": 287.1,
-      "price": 23.7,
-      "d1": 0,
-      "w1": -2.86,
-      "m1": -3.26,
-      "ytd": 4.86,
-      "y1": 21.53
+      "mcap": 285.9,
+      "price": 23.6,
+      "d1": -0.42,
+      "w1": -3.27,
+      "m1": -3.67,
+      "ytd": 4.42,
+      "y1": 21.02
      }
     },
     {
@@ -8449,41 +8456,13 @@
      "label": "Incap",
      "group": "Teollisuus",
      "values": {
-      "mcap": 250.4,
-      "price": 8.56,
-      "d1": 0,
-      "w1": 6.07,
-      "m1": 1.78,
-      "ytd": -12.83,
-      "y1": -14.57
-     }
-    },
-    {
-     "key": "RELAIS",
-     "label": "Relais Group",
-     "group": "Kulutustavarat",
-     "values": {
-      "mcap": 249.6,
-      "price": 13.35,
-      "d1": -1.11,
-      "w1": -1.83,
-      "m1": -7.61,
-      "ytd": -20.05,
-      "y1": -17.08
-     }
-    },
-    {
-     "key": "LASTIK",
-     "label": "Lassila & Tikanoja",
-     "group": "Yleishyödylliset",
-     "values": {
-      "mcap": 248,
-      "price": 6.49,
-      "d1": -0.61,
-      "w1": -0.76,
-      "m1": -8.59,
-      "ytd": null,
-      "y1": null
+      "mcap": 251.9,
+      "price": 8.61,
+      "d1": 0.58,
+      "w1": 6.69,
+      "m1": 2.37,
+      "ytd": -12.32,
+      "y1": -14.07
      }
     },
     {
@@ -8491,13 +8470,41 @@
      "label": "F-Secure",
      "group": "Teknologia",
      "values": {
-      "mcap": 244.6,
-      "price": 1.4,
-      "d1": -2.91,
-      "w1": -26.39,
-      "m1": -27.15,
-      "ytd": -27.61,
-      "y1": -17.25
+      "mcap": 249.8,
+      "price": 1.43,
+      "d1": -0.83,
+      "w1": -24.81,
+      "m1": -25.59,
+      "ytd": -26.05,
+      "y1": -15.48
+     }
+    },
+    {
+     "key": "RELAIS",
+     "label": "Relais Group",
+     "group": "Kulutustavarat",
+     "values": {
+      "mcap": 247.7,
+      "price": 13.25,
+      "d1": -1.85,
+      "w1": -2.57,
+      "m1": -8.3,
+      "ytd": -20.65,
+      "y1": -17.7
+     }
+    },
+    {
+     "key": "LASTIK",
+     "label": "Lassila & Tikanoja",
+     "group": "Yleishyödylliset",
+     "values": {
+      "mcap": 247.6,
+      "price": 6.48,
+      "d1": -0.76,
+      "w1": -0.91,
+      "m1": -8.73,
+      "ytd": null,
+      "y1": null
      }
     },
     {
@@ -8505,13 +8512,13 @@
      "label": "United Bankers",
      "group": "Rahoitus",
      "values": {
-      "mcap": 240.5,
-      "price": 21.5,
-      "d1": 4.87,
-      "w1": -5.7,
-      "m1": -12.24,
-      "ytd": 12.86,
-      "y1": 13.45
+      "mcap": 245,
+      "price": 21.9,
+      "d1": 6.82,
+      "w1": -3.94,
+      "m1": -10.61,
+      "ytd": 14.96,
+      "y1": 15.56
      }
     },
     {
@@ -8519,13 +8526,13 @@
      "label": "Pihlajalinna",
      "group": "Terveydenhuolto",
      "values": {
-      "mcap": 240.2,
-      "price": 10.62,
-      "d1": 1.52,
-      "w1": -2.56,
-      "m1": -2.92,
-      "ytd": -27.26,
-      "y1": -32.57
+      "mcap": 239.3,
+      "price": 10.58,
+      "d1": 1.14,
+      "w1": -2.93,
+      "m1": -3.29,
+      "ytd": -27.53,
+      "y1": -32.82
      }
     },
     {
@@ -8533,13 +8540,13 @@
      "label": "Remedy Entertainment",
      "group": "Kulutustavarat",
      "values": {
-      "mcap": 238.7,
-      "price": 17.5,
-      "d1": 1.27,
-      "w1": -7.89,
-      "m1": -3.2,
-      "ytd": 15.13,
-      "y1": 21.35
+      "mcap": 234.6,
+      "price": 17.2,
+      "d1": -0.46,
+      "w1": -9.47,
+      "m1": -4.86,
+      "ytd": 13.15,
+      "y1": 19.27
      }
     },
     {
@@ -8547,13 +8554,13 @@
      "label": "Aspo",
      "group": "Teollisuus",
      "values": {
-      "mcap": 222.5,
-      "price": 7.08,
-      "d1": 2.6,
-      "w1": -0.28,
-      "m1": -3.01,
-      "ytd": 8.58,
-      "y1": 19.19
+      "mcap": 224.3,
+      "price": 7.14,
+      "d1": 3.47,
+      "w1": 0.56,
+      "m1": -2.19,
+      "ytd": 9.5,
+      "y1": 20.2
      }
     },
     {
@@ -8561,13 +8568,13 @@
      "label": "Taaleri",
      "group": "Rahoitus",
      "values": {
-      "mcap": 214.9,
-      "price": 7.62,
-      "d1": -0.26,
-      "w1": 5.24,
-      "m1": 5.68,
-      "ytd": -2.43,
-      "y1": 9.16
+      "mcap": 216.8,
+      "price": 7.69,
+      "d1": 0.65,
+      "w1": 6.21,
+      "m1": 6.65,
+      "ytd": -1.53,
+      "y1": 10.17
      }
     },
     {
@@ -8603,11 +8610,11 @@
      "label": "Reaktor Group",
      "group": "Teknologia",
      "values": {
-      "mcap": 179.5,
-      "price": 7.05,
-      "d1": -2.75,
-      "w1": -4.08,
-      "m1": 0,
+      "mcap": 178.2,
+      "price": 7,
+      "d1": -3.44,
+      "w1": -4.76,
+      "m1": -0.7,
       "ytd": null,
       "y1": null
      }
@@ -8617,13 +8624,13 @@
      "label": "Gofore",
      "group": "Teknologia",
      "values": {
-      "mcap": 175.1,
-      "price": 10.74,
-      "d1": 0,
-      "w1": 0,
-      "m1": -7.89,
-      "ytd": -20.32,
-      "y1": -25
+      "mcap": 175.4,
+      "price": 10.76,
+      "d1": 0.18,
+      "w1": 0.18,
+      "m1": -7.71,
+      "ytd": -20.17,
+      "y1": -24.86
      }
     },
     {
@@ -8631,13 +8638,13 @@
      "label": "SRV Yhtiöt",
      "group": "Teollisuus",
      "values": {
-      "mcap": 166.4,
-      "price": 9.8,
-      "d1": 2.94,
-      "w1": -1.99,
-      "m1": 17.78,
-      "ytd": 128.97,
-      "y1": 87.73
+      "mcap": 168.1,
+      "price": 9.9,
+      "d1": 3.99,
+      "w1": -0.99,
+      "m1": 18.99,
+      "ytd": 131.3,
+      "y1": 89.65
      }
     },
     {
@@ -8645,13 +8652,13 @@
      "label": "Verkkokauppa.com",
      "group": "Kulutustavarat",
      "values": {
-      "mcap": 162.4,
-      "price": 3.58,
-      "d1": -1.64,
-      "w1": 0,
-      "m1": 0,
-      "ytd": -9.13,
-      "y1": -1.1
+      "mcap": 163,
+      "price": 3.595,
+      "d1": -1.23,
+      "w1": 0.41,
+      "m1": 0.41,
+      "ytd": -8.75,
+      "y1": -0.69
      }
     },
     {
@@ -8673,13 +8680,13 @@
      "label": "NoHo Partners",
      "group": "Kulutustavarat",
      "values": {
-      "mcap": 155.7,
-      "price": 7.4,
-      "d1": -0.4,
-      "w1": -2.24,
-      "m1": -3.64,
-      "ytd": -9.97,
-      "y1": -19.38
+      "mcap": 155.5,
+      "price": 7.39,
+      "d1": -0.53,
+      "w1": -2.37,
+      "m1": -3.77,
+      "ytd": -10.09,
+      "y1": -19.49
      }
     },
     {
@@ -8701,9 +8708,9 @@
      "label": "Revenio Group Uudet 2026",
      "group": "Terveydenhuolto",
      "values": {
-      "mcap": 144.3,
-      "price": 11.1,
-      "d1": 5.11,
+      "mcap": 144.6,
+      "price": 11.18,
+      "d1": 5.87,
       "w1": null,
       "m1": null,
       "ytd": null,
@@ -8715,13 +8722,13 @@
      "label": "Tecnotree",
      "group": "Teknologia",
      "values": {
-      "mcap": 139.5,
-      "price": 6.1,
-      "d1": 2.69,
-      "w1": -6.72,
-      "m1": -9.36,
-      "ytd": 41.53,
-      "y1": 29.78
+      "mcap": 140.6,
+      "price": 6.15,
+      "d1": 3.53,
+      "w1": -5.96,
+      "m1": -8.61,
+      "ytd": 42.69,
+      "y1": 30.85
      }
     },
     {
@@ -8729,13 +8736,13 @@
      "label": "HKFoods",
      "group": "Päivittäistavarat",
      "values": {
-      "mcap": 137.8,
-      "price": 1.602,
-      "d1": -0.49,
-      "w1": -3.46,
-      "m1": -2.99,
-      "ytd": 9.32,
-      "y1": 8.59
+      "mcap": 136.6,
+      "price": 1.604,
+      "d1": -0.37,
+      "w1": -4.29,
+      "m1": -3.83,
+      "ytd": 8.37,
+      "y1": 7.65
      }
     },
     {
@@ -8757,27 +8764,13 @@
      "label": "Sotkamo Silver",
      "group": "Perusteollisuus",
      "values": {
-      "mcap": 125.8,
-      "price": 0.3905,
-      "d1": 0.12,
-      "w1": -4.05,
-      "m1": -16.55,
-      "ytd": 102.75,
-      "y1": 288.94
-     }
-    },
-    {
-     "key": "EXEL",
-     "label": "Exel Composites",
-     "group": "Teollisuus",
-     "values": {
-      "mcap": 112.1,
-      "price": 15.75,
-      "d1": -0.31,
-      "w1": -1.56,
-      "m1": 17.53,
-      "ytd": 132.81,
-      "y1": 178.51
+      "mcap": 123.8,
+      "price": 0.3845,
+      "d1": -1.41,
+      "w1": -5.52,
+      "m1": -17.84,
+      "ytd": 99.63,
+      "y1": 282.96
      }
     },
     {
@@ -8785,27 +8778,27 @@
      "label": "SSH Communications Security",
      "group": "Teknologia",
      "values": {
-      "mcap": 109.2,
-      "price": 2,
-      "d1": -0.74,
-      "w1": -6.54,
-      "m1": -11.11,
-      "ytd": -36.5,
-      "y1": -60.15
+      "mcap": 112.2,
+      "price": 2.055,
+      "d1": 1.98,
+      "w1": -3.97,
+      "m1": -8.66,
+      "ytd": -34.76,
+      "y1": -59.06
      }
     },
     {
-     "key": "KSL",
-     "label": "Keskisuomalainen",
-     "group": "Kulutustavarat",
+     "key": "EXEL",
+     "label": "Exel Composites",
+     "group": "Teollisuus",
      "values": {
-      "mcap": 100.4,
-      "price": 9.16,
-      "d1": 0.43,
-      "w1": 2.46,
-      "m1": -6.33,
-      "ytd": 6.51,
-      "y1": 17.73
+      "mcap": 111.1,
+      "price": 15.6,
+      "d1": -1.26,
+      "w1": -2.5,
+      "m1": 16.41,
+      "ytd": 130.59,
+      "y1": 175.86
      }
     },
     {
@@ -8813,13 +8806,27 @@
      "label": "Enersense International",
      "group": "Teollisuus",
      "values": {
-      "mcap": 99.9,
-      "price": 6.06,
-      "d1": 3.41,
-      "w1": 13.48,
-      "m1": 51.5,
-      "ytd": 51.5,
-      "y1": 49.62
+      "mcap": 101.6,
+      "price": 6.16,
+      "d1": 5.11,
+      "w1": 15.35,
+      "m1": 54,
+      "ytd": 54,
+      "y1": 52.09
+     }
+    },
+    {
+     "key": "KSL",
+     "label": "Keskisuomalainen",
+     "group": "Kulutustavarat",
+     "values": {
+      "mcap": 99.7,
+      "price": 9.1,
+      "d1": -0.21,
+      "w1": 1.78,
+      "m1": -6.95,
+      "ytd": 5.81,
+      "y1": 16.96
      }
     },
     {
@@ -8827,13 +8834,13 @@
      "label": "Ilkka",
      "group": "Teknologia",
      "values": {
-      "mcap": 95.8,
-      "price": 3.57,
-      "d1": 0.56,
-      "w1": -4.03,
-      "m1": -6.54,
-      "ytd": -7.03,
-      "y1": -6.05
+      "mcap": 96.1,
+      "price": 3.58,
+      "d1": 0.84,
+      "w1": -3.76,
+      "m1": -6.28,
+      "ytd": -6.77,
+      "y1": -5.78
      }
     },
     {
@@ -8841,13 +8848,13 @@
      "label": "Consti",
      "group": "Teollisuus",
      "values": {
-      "mcap": 90.6,
-      "price": 11.05,
-      "d1": -0.45,
-      "w1": 0.45,
-      "m1": -0.45,
-      "ytd": 3.75,
-      "y1": 4.73
+      "mcap": 90.2,
+      "price": 11,
+      "d1": -0.9,
+      "w1": 0,
+      "m1": -0.9,
+      "ytd": 3.28,
+      "y1": 4.26
      }
     },
     {
@@ -8869,13 +8876,13 @@
      "label": "Sitowise Group",
      "group": "Teollisuus",
      "values": {
-      "mcap": 81,
-      "price": 2.26,
-      "d1": -1.31,
-      "w1": -5.43,
-      "m1": -8.13,
-      "ytd": -12.74,
-      "y1": -9.23
+      "mcap": 82.4,
+      "price": 2.3,
+      "d1": 0.43,
+      "w1": -3.76,
+      "m1": -6.5,
+      "ytd": -11.19,
+      "y1": -7.63
      }
     },
     {
@@ -8883,13 +8890,13 @@
      "label": "Orthex",
      "group": "Kulutustavarat",
      "values": {
-      "mcap": 80.1,
-      "price": 4.51,
-      "d1": 2.26,
-      "w1": -4.04,
-      "m1": -5.64,
-      "ytd": -3.01,
-      "y1": -0.44
+      "mcap": 79.9,
+      "price": 4.5,
+      "d1": 2.04,
+      "w1": -4.25,
+      "m1": -5.85,
+      "ytd": -3.22,
+      "y1": -0.66
      }
     },
     {
@@ -8897,13 +8904,13 @@
      "label": "Apetit",
      "group": "Päivittäistavarat",
      "values": {
-      "mcap": 78.7,
-      "price": 12.45,
-      "d1": 0,
-      "w1": -2.73,
-      "m1": 2.04,
-      "ytd": -10.1,
-      "y1": -9.45
+      "mcap": 78.3,
+      "price": 12.4,
+      "d1": -0.4,
+      "w1": -3.12,
+      "m1": 1.63,
+      "ytd": -10.46,
+      "y1": -9.81
      }
     },
     {
@@ -8911,13 +8918,13 @@
      "label": "Suominen",
      "group": "Päivittäistavarat",
      "values": {
-      "mcap": 75.8,
-      "price": 0.56,
-      "d1": -2.43,
-      "w1": -6.66,
-      "m1": -18.6,
-      "ytd": -49.6,
-      "y1": -52.02
+      "mcap": 73.1,
+      "price": 0.54,
+      "d1": -5.92,
+      "w1": -9.99,
+      "m1": -21.51,
+      "ytd": -51.4,
+      "y1": -53.73
      }
     },
     {
@@ -8935,31 +8942,17 @@
      }
     },
     {
-     "key": "BOREO",
-     "label": "Boreo",
-     "group": "Teollisuus",
-     "values": {
-      "mcap": 67.3,
-      "price": 24.9,
-      "d1": -3.11,
-      "w1": -5.32,
-      "m1": 6.86,
-      "ytd": 77.85,
-      "y1": 49.1
-     }
-    },
-    {
      "key": "LUOTEA",
      "label": "Luotea",
      "group": "Yleishyödylliset",
      "values": {
-      "mcap": 67.1,
-      "price": 1.73,
-      "d1": -0.57,
-      "w1": -4.41,
-      "m1": -12.62,
-      "ytd": -83.7,
-      "y1": -83.3
+      "mcap": 67,
+      "price": 1.726,
+      "d1": -0.8,
+      "w1": -4.64,
+      "m1": -12.82,
+      "ytd": -83.74,
+      "y1": -83.33
      }
     },
     {
@@ -8991,17 +8984,31 @@
      }
     },
     {
+     "key": "BOREO",
+     "label": "Boreo",
+     "group": "Teollisuus",
+     "values": {
+      "mcap": 65.4,
+      "price": 24.2,
+      "d1": -5.83,
+      "w1": -7.98,
+      "m1": 3.86,
+      "ytd": 72.85,
+      "y1": 44.91
+     }
+    },
+    {
      "key": "AFAGR",
      "label": "Afarak Group",
      "group": "Perusteollisuus",
      "values": {
-      "mcap": 63.7,
-      "price": 0.23,
-      "d1": 0.87,
-      "w1": -1.28,
-      "m1": -8.73,
-      "ytd": -10.85,
-      "y1": -18.14
+      "mcap": 64.6,
+      "price": 0.233,
+      "d1": 2.19,
+      "w1": 0,
+      "m1": -7.53,
+      "ytd": -9.68,
+      "y1": -17.08
      }
     },
     {
@@ -9009,13 +9016,13 @@
      "label": "Kamux",
      "group": "Kulutustavarat",
      "values": {
-      "mcap": 58.3,
-      "price": 1.458,
-      "d1": 0.13,
-      "w1": -1.48,
-      "m1": -8.3,
-      "ytd": -32.81,
-      "y1": -27.99
+      "mcap": 57.7,
+      "price": 1.442,
+      "d1": -0.96,
+      "w1": -2.56,
+      "m1": -9.3,
+      "ytd": -33.54,
+      "y1": -28.79
      }
     },
     {
@@ -9023,13 +9030,13 @@
      "label": "KH Group",
      "group": "Teollisuus",
      "values": {
-      "mcap": 53.9,
-      "price": 0.928,
-      "d1": 0,
-      "w1": -0.21,
-      "m1": 12.07,
-      "ytd": 100.43,
-      "y1": 109
+      "mcap": 54.2,
+      "price": 0.934,
+      "d1": 0.64,
+      "w1": 0.43,
+      "m1": 12.8,
+      "ytd": 101.72,
+      "y1": 110.36
      }
     },
     {
@@ -9037,13 +9044,13 @@
      "label": "Talenom",
      "group": "Teollisuus",
      "values": {
-      "mcap": 51.9,
-      "price": 1.134,
-      "d1": -0.52,
-      "w1": -2.24,
-      "m1": -8.84,
-      "ytd": -62.51,
-      "y1": -68.88
+      "mcap": 52.1,
+      "price": 1.138,
+      "d1": -0.17,
+      "w1": -1.89,
+      "m1": -8.52,
+      "ytd": -62.38,
+      "y1": -68.77
      }
     },
     {
@@ -9093,13 +9100,13 @@
      "label": "Aspocomp Group",
      "group": "Teknologia",
      "values": {
-      "mcap": 42.9,
-      "price": 5.7,
-      "d1": 1.06,
-      "w1": -0.69,
-      "m1": 8.77,
-      "ytd": 12.2,
-      "y1": 11.32
+      "mcap": 43.2,
+      "price": 5.74,
+      "d1": 1.77,
+      "w1": 0,
+      "m1": 9.54,
+      "ytd": 12.99,
+      "y1": 12.1
      }
     },
     {
@@ -9107,13 +9114,13 @@
      "label": "Saga Furs Oyj C",
      "group": "Kulutustavarat",
      "values": {
-      "mcap": 42.8,
-      "price": 15.85,
-      "d1": -2.16,
-      "w1": -3.05,
-      "m1": -0.93,
-      "ytd": 145.73,
-      "y1": 131.38
+      "mcap": 42.7,
+      "price": 15.8,
+      "d1": -2.46,
+      "w1": -3.36,
+      "m1": -1.24,
+      "ytd": 144.96,
+      "y1": 130.65
      }
     },
     {
@@ -9121,27 +9128,13 @@
      "label": "Glaston",
      "group": "Teollisuus",
      "values": {
-      "mcap": 41.7,
-      "price": 0.99,
-      "d1": 1.02,
-      "w1": -1,
-      "m1": -7.47,
-      "ytd": -12.23,
-      "y1": -13.14
-     }
-    },
-    {
-     "key": "OPTOMED",
-     "label": "Optomed",
-     "group": "Terveydenhuolto",
-     "values": {
-      "mcap": 30.1,
-      "price": 1.4,
-      "d1": -0.42,
-      "w1": -9.44,
-      "m1": -14.63,
-      "ytd": -62.86,
-      "y1": -62.76
+      "mcap": 40.9,
+      "price": 0.97,
+      "d1": -1.02,
+      "w1": -3,
+      "m1": -9.34,
+      "ytd": -14,
+      "y1": -14.89
      }
     },
     {
@@ -9159,17 +9152,31 @@
      }
     },
     {
+     "key": "OPTOMED",
+     "label": "Optomed",
+     "group": "Terveydenhuolto",
+     "values": {
+      "mcap": 29.8,
+      "price": 1.386,
+      "d1": -1.42,
+      "w1": -10.34,
+      "m1": -15.48,
+      "ytd": -63.23,
+      "y1": -63.13
+     }
+    },
+    {
      "key": "BIOBV",
      "label": "Biohit",
      "group": "Terveydenhuolto",
      "values": {
-      "mcap": 29.7,
-      "price": 2.43,
-      "d1": -2.79,
-      "w1": 4.74,
-      "m1": -3.95,
-      "ytd": -34.14,
-      "y1": -16.2
+      "mcap": 28.9,
+      "price": 2.36,
+      "d1": -5.6,
+      "w1": 1.72,
+      "m1": -6.71,
+      "ytd": -36.04,
+      "y1": -18.62
      }
     },
     {
@@ -9205,13 +9212,13 @@
      "label": "Eezy",
      "group": "Teollisuus",
      "values": {
-      "mcap": 26.9,
-      "price": 0.215,
-      "d1": 1.89,
-      "w1": 4.87,
-      "m1": 20.11,
-      "ytd": -19.12,
-      "y1": -23.41
+      "mcap": 27.4,
+      "price": 0.219,
+      "d1": 3.79,
+      "w1": 6.82,
+      "m1": 22.34,
+      "ytd": -17.61,
+      "y1": -21.98
      }
     },
     {
@@ -9219,13 +9226,13 @@
      "label": "Tulikivi",
      "group": "Teollisuus",
      "values": {
-      "mcap": 26.5,
-      "price": 0.508,
-      "d1": -0.39,
-      "w1": -2.3,
-      "m1": -0.39,
-      "ytd": 3.04,
-      "y1": 15.45
+      "mcap": 25.7,
+      "price": 0.493,
+      "d1": -3.33,
+      "w1": -5.19,
+      "m1": -3.33,
+      "ytd": 0,
+      "y1": 12.04
      }
     },
     {
@@ -9275,11 +9282,11 @@
      "label": "Easor",
      "group": "Teknologia",
      "values": {
-      "mcap": 21.5,
-      "price": 0.47,
-      "d1": 5.02,
-      "w1": -0.63,
-      "m1": -10.81,
+      "mcap": 21.4,
+      "price": 0.468,
+      "d1": 4.58,
+      "w1": -1.05,
+      "m1": -11.19,
       "ytd": null,
       "y1": null
      }
@@ -9289,13 +9296,13 @@
      "label": "Lamor Corporation",
      "group": "Yleishyödylliset",
      "values": {
-      "mcap": 21,
-      "price": 0.762,
-      "d1": 0,
-      "w1": -9.06,
-      "m1": -13.8,
-      "ytd": -26.73,
-      "y1": -39.04
+      "mcap": 20.7,
+      "price": 0.752,
+      "d1": -1.31,
+      "w1": -10.26,
+      "m1": -14.93,
+      "ytd": -27.69,
+      "y1": -39.84
      }
     },
     {
@@ -9303,13 +9310,13 @@
      "label": "Alisa Pankki",
      "group": "Rahoitus",
      "values": {
-      "mcap": 19.4,
-      "price": 0.1295,
-      "d1": -5.12,
-      "w1": -1.14,
-      "m1": -6.15,
-      "ytd": -43.2,
-      "y1": -38.62
+      "mcap": 19.2,
+      "price": 0.128,
+      "d1": -6.22,
+      "w1": -2.29,
+      "m1": -7.24,
+      "ytd": -43.85,
+      "y1": -39.33
      }
     },
     {
@@ -9317,13 +9324,13 @@
      "label": "Investors House",
      "group": "Kiinteistöt",
      "values": {
-      "mcap": 18.5,
-      "price": 2.9,
-      "d1": -1.02,
-      "w1": -3.33,
-      "m1": -12.38,
-      "ytd": -19.88,
-      "y1": -25.64
+      "mcap": 18.7,
+      "price": 2.93,
+      "d1": 0,
+      "w1": -2.33,
+      "m1": -11.48,
+      "ytd": -19.06,
+      "y1": -24.87
      }
     },
     {
@@ -9331,13 +9338,13 @@
      "label": "Honkarakenne",
      "group": "Kulutustavarat",
      "values": {
-      "mcap": 14.5,
-      "price": 2.45,
-      "d1": 0.82,
-      "w1": 0.82,
-      "m1": -1.6,
-      "ytd": -14.93,
-      "y1": -1.6
+      "mcap": 14.3,
+      "price": 2.42,
+      "d1": -0.41,
+      "w1": -0.41,
+      "m1": -2.81,
+      "ytd": -15.97,
+      "y1": -2.81
      }
     },
     {
@@ -9345,13 +9352,13 @@
      "label": "Panostaja",
      "group": "Rahoitus",
      "values": {
-      "mcap": 13.8,
-      "price": 0.258,
-      "d1": -2.64,
-      "w1": -6.18,
-      "m1": -8.83,
-      "ytd": -24.78,
-      "y1": -35.33
+      "mcap": 14.1,
+      "price": 0.265,
+      "d1": 0,
+      "w1": -3.63,
+      "m1": -6.36,
+      "ytd": -22.74,
+      "y1": -33.58
      }
     },
     {
@@ -9359,13 +9366,13 @@
      "label": "Rebl Group",
      "group": "Kulutustavarat",
      "values": {
-      "mcap": 12.6,
-      "price": 1.01,
-      "d1": 0,
-      "w1": 2.02,
-      "m1": -8.18,
-      "ytd": 2.02,
-      "y1": -4.71
+      "mcap": 12.3,
+      "price": 0.985,
+      "d1": -2.47,
+      "w1": -0.5,
+      "m1": -10.45,
+      "ytd": -0.5,
+      "y1": -7.07
      }
     },
     {
@@ -9373,13 +9380,13 @@
      "label": "QPR Software",
      "group": "Teknologia",
      "values": {
-      "mcap": 10.5,
-      "price": 0.53,
-      "d1": -3.63,
-      "w1": -1.11,
-      "m1": -2.57,
-      "ytd": -36.45,
-      "y1": -7.01
+      "mcap": 10.9,
+      "price": 0.548,
+      "d1": -0.36,
+      "w1": 2.23,
+      "m1": 0.73,
+      "ytd": -34.29,
+      "y1": -3.85
      }
     },
     {
@@ -9387,13 +9394,13 @@
      "label": "Kesla",
      "group": "Teollisuus",
      "values": {
-      "mcap": 9.7,
-      "price": 3.79,
-      "d1": -0.26,
-      "w1": -4.53,
-      "m1": -11.65,
-      "ytd": 64.78,
-      "y1": 26.33
+      "mcap": 9.8,
+      "price": 3.8,
+      "d1": 0,
+      "w1": -4.28,
+      "m1": -11.42,
+      "ytd": 65.21,
+      "y1": 26.66
      }
     },
     {
@@ -9401,13 +9408,13 @@
      "label": "Solteq",
      "group": "Teknologia",
      "values": {
-      "mcap": 5.4,
-      "price": 0.28,
-      "d1": 0,
-      "w1": -9.67,
-      "m1": -3.44,
-      "ytd": -32.36,
-      "y1": -51.72
+      "mcap": 5.3,
+      "price": 0.271,
+      "d1": -3.21,
+      "w1": -12.58,
+      "m1": -6.55,
+      "ytd": -34.54,
+      "y1": -53.27
      }
     },
     {
@@ -9416,12 +9423,12 @@
      "group": "Teknologia",
      "values": {
       "mcap": 4.6,
-      "price": 2.12,
-      "d1": 0,
-      "w1": -0.93,
-      "m1": -3.63,
-      "ytd": -12.39,
-      "y1": 0
+      "price": 2.14,
+      "d1": 0.94,
+      "w1": 0,
+      "m1": -2.72,
+      "ytd": -11.57,
+      "y1": 0.94
      }
     },
     {
@@ -9431,7 +9438,7 @@
      "values": {
       "mcap": 4.2,
       "price": 2.32,
-      "d1": null,
+      "d1": 0,
       "w1": 2.65,
       "m1": -10.07,
       "ytd": -8.66,
@@ -9458,12 +9465,12 @@
      "group": "Kulutustavarat",
      "values": {
       "mcap": 2,
-      "price": 0.487,
-      "d1": -2.2,
-      "w1": -11.13,
-      "m1": 8.22,
-      "ytd": -32.36,
-      "y1": -47.97
+      "price": 0.493,
+      "d1": -1,
+      "w1": -10.03,
+      "m1": 9.55,
+      "ytd": -31.52,
+      "y1": -47.32
      }
     }
    ]
