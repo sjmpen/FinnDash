@@ -1,6 +1,6 @@
 {
  "tab": "trade",
- "generated": "2026-10-03T12:12:57.936Z",
+ "generated": "2026-10-13T12:42:16.012Z",
  "series": {
   "goods.exports": {
    "id": "goods.exports",
@@ -5218,7 +5218,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin mata/12gf",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__mata/12gf.px/",
-    "updated": "2026-09-18T05:00:00Z"
+    "updated": "2026-10-13T05:00:00Z"
    },
    "data": [
     ["2006-12", 9479],
@@ -5456,7 +5456,8 @@
     ["2026-04", 40333],
     ["2026-05", 40136],
     ["2026-06", 40110],
-    ["2026-07", 40340]
+    ["2026-07", 40340],
+    ["2026-08", 40563]
    ]
   },
   "bop.services_imports_12m": {
@@ -5468,7 +5469,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin mata/12gf",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__mata/12gf.px/",
-    "updated": "2026-09-18T05:00:00Z"
+    "updated": "2026-10-13T05:00:00Z"
    },
    "data": [
     ["2006-12", 15392],
@@ -5706,7 +5707,8 @@
     ["2026-04", 45080],
     ["2026-05", 45401],
     ["2026-06", 45758],
-    ["2026-07", 46109]
+    ["2026-07", 46108],
+    ["2026-08", 46453]
    ]
   },
   "bop.current_account_12m": {
@@ -5718,7 +5720,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin mata/12gf",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__mata/12gf.px/",
-    "updated": "2026-09-18T05:00:00Z"
+    "updated": "2026-10-13T05:00:00Z"
    },
    "data": [
     ["2006-12", 6797],
@@ -5956,7 +5958,8 @@
     ["2026-04", 2071],
     ["2026-05", 1009],
     ["2026-06", 2270],
-    ["2026-07", 244]
+    ["2026-07", 503],
+    ["2026-08", -705]
    ]
   }
  },
