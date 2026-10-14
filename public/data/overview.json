@@ -1,6 +1,6 @@
 {
  "tab": "overview",
- "generated": "2026-10-12T13:08:41.953Z",
+ "generated": "2026-10-14T10:10:01.064Z",
  "series": {
   "cpi.yoy": {
    "id": "cpi.yoy",
@@ -11,7 +11,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin khi/15b5",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__khi/15b5.px/",
-    "updated": "2026-09-14T05:00:00Z"
+    "updated": "2026-10-14T05:00:00Z"
    },
    "data": [
     ["2000-01", 2.2],
@@ -333,7 +333,8 @@
     ["2026-05", 2.1],
     ["2026-06", 2.1],
     ["2026-07", 2.1],
-    ["2026-08", 2.2]
+    ["2026-08", 2.2],
+    ["2026-09", 2.5]
    ]
   },
   "hicp.yoy": {
@@ -345,7 +346,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin khi/15b7",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__khi/15b7.px/",
-    "updated": "2026-09-14T05:00:00Z"
+    "updated": "2026-10-14T05:00:00Z"
    },
    "data": [
     ["2000-01", 2.4],
@@ -667,7 +668,8 @@
     ["2026-05", 2.8],
     ["2026-06", 2.7],
     ["2026-07", 2.5],
-    ["2026-08", 2.4]
+    ["2026-08", 2.4],
+    ["2026-09", 2.7]
    ]
   },
   "hicp.flash": {
@@ -5047,12 +5049,12 @@
    "id": "cpi.contrib",
    "label": "Hyödykeryhmien vaikutus inflaatioon",
    "unit": "%-yks.",
-   "period": "2026-08",
+   "period": "2026-09",
    "source": {
     "name": "Tilastokeskus",
     "table": "StatFin khi/15b5",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__khi/15b5.px/",
-    "updated": "2026-09-14T05:00:00Z"
+    "updated": "2026-10-14T05:00:00Z"
    },
    "columns": {
     "contrib": "Vaikutus vuosimuutokseen, %-yks.",
@@ -5063,104 +5065,104 @@
      "key": "01",
      "label": "Elintarvikkeet ja alkoholittomat juomat",
      "values": {
-      "contrib": 0.214,
-      "yoy": 1.6
+      "contrib": 0.265,
+      "yoy": 1.9
      }
     },
     {
      "key": "02",
      "label": "Alkoholijuomat ja tupakka",
      "values": {
-      "contrib": 0.153,
-      "yoy": 3.6
+      "contrib": 0.159,
+      "yoy": 3.8
      }
     },
     {
      "key": "03",
      "label": "Vaatetus ja jalkineet",
      "values": {
-      "contrib": -0.056,
-      "yoy": -1.4
+      "contrib": -0.035,
+      "yoy": -0.9
      }
     },
     {
      "key": "04",
      "label": "Asuminen ja energia",
      "values": {
-      "contrib": 0.348,
-      "yoy": 1.3
+      "contrib": 0.416,
+      "yoy": 1.6
      }
     },
     {
      "key": "05",
      "label": "Kalusteet ja kotitalous",
      "values": {
-      "contrib": 0.2,
-      "yoy": 4.7
+      "contrib": 0.125,
+      "yoy": 2.9
      }
     },
     {
      "key": "06",
      "label": "Terveys",
      "values": {
-      "contrib": 0.134,
-      "yoy": 3
+      "contrib": 0.11,
+      "yoy": 2.5
      }
     },
     {
      "key": "07",
      "label": "Liikenne",
      "values": {
-      "contrib": 0.894,
-      "yoy": 7.3
+      "contrib": 1.092,
+      "yoy": 8.9
      }
     },
     {
      "key": "08",
      "label": "Informaatio ja viestintä",
      "values": {
-      "contrib": 0.116,
-      "yoy": 3.1
+      "contrib": 0.17,
+      "yoy": 4.5
      }
     },
     {
      "key": "09",
      "label": "Kulttuuri ja vapaa-aika",
      "values": {
-      "contrib": 0.162,
-      "yoy": 1.9
+      "contrib": 0.125,
+      "yoy": 1.5
      }
     },
     {
      "key": "10",
      "label": "Koulutus",
      "values": {
-      "contrib": 0.019,
-      "yoy": 5.8
+      "contrib": 0.012,
+      "yoy": 4.2
      }
     },
     {
      "key": "11",
      "label": "Ravintolat ja majoitus",
      "values": {
-      "contrib": 0.104,
-      "yoy": 1.4
+      "contrib": 0.15,
+      "yoy": 2
      }
     },
     {
      "key": "12",
      "label": "Vakuutus- ja rahoituspalvelut",
      "values": {
-      "contrib": -0.002,
-      "yoy": 0.4
+      "contrib": 0.047,
+      "yoy": 1.7
      }
     },
     {
      "key": "13",
      "label": "Muut tavarat ja palvelut",
      "values": {
-      "contrib": -0.099,
-      "yoy": -1.5
+      "contrib": -0.115,
+      "yoy": -1.9
      }
     }
    ]
