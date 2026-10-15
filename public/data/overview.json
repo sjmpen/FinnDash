@@ -1,6 +1,6 @@
 {
  "tab": "overview",
- "generated": "2026-10-14T10:10:01.064Z",
+ "generated": "2026-10-15T09:53:02.738Z",
  "series": {
   "cpi.yoy": {
    "id": "cpi.yoy",
@@ -3131,7 +3131,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin ati/14um",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ati/14um.px/",
-    "updated": "2026-08-26T05:00:00Z"
+    "updated": "2026-10-15T05:00:00Z"
    },
    "data": [
     ["2005-Q1", 3.8],
@@ -3219,7 +3219,8 @@
     ["2025-Q3", 2.8],
     ["2025-Q4", 3.5],
     ["2026-Q1", 3.6],
-    ["2026-Q2", 3.4]
+    ["2026-Q2", 3.4],
+    ["2026-Q3", 3.5]
    ]
   },
   "wages.real_yoy": {
@@ -3231,7 +3232,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin ati/14um",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ati/14um.px/",
-    "updated": "2026-08-26T05:00:00Z"
+    "updated": "2026-10-15T05:00:00Z"
    },
    "data": [
     ["2016-Q1", 1.1],
@@ -3275,7 +3276,8 @@
     ["2025-Q3", 2.4],
     ["2025-Q4", 3.5],
     ["2026-Q1", 3],
-    ["2026-Q2", 1.6]
+    ["2026-Q2", 1.6],
+    ["2026-Q3", 1.2]
    ]
   },
   "bankruptcies.rolling12": {

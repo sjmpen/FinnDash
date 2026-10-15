@@ -1,6 +1,6 @@
 {
  "tab": "housing",
- "generated": "2026-10-03T12:11:46.378Z",
+ "generated": "2026-10-15T09:53:18.424Z",
  "series": {
   "prices.yoy.SSS": {
    "id": "prices.yoy.SSS",
@@ -1337,11 +1337,12 @@
     "name": "Tilastokeskus",
     "table": "StatFin asvu/15fa",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__asvu/15fa.px/",
-    "updated": "2026-07-16T05:00:00Z"
+    "updated": "2026-10-15T05:00:00Z"
    },
    "data": [
     ["2026-Q1", 0.1],
-    ["2026-Q2", 0.1]
+    ["2026-Q2", 0.1],
+    ["2026-Q3", 0.1]
    ]
   },
   "construction.permits": {
@@ -2352,7 +2353,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin rki/13g8",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__rki/13g8.px/",
-    "updated": "2026-09-15T05:00:00Z"
+    "updated": "2026-10-15T05:00:00Z"
    },
    "data": [
     ["2006-01", 3],
@@ -2602,7 +2603,8 @@
     ["2026-05", 2],
     ["2026-06", 2.7],
     ["2026-07", 3.3],
-    ["2026-08", 3.6]
+    ["2026-08", 3.6],
+    ["2026-09", 3.4]
    ]
   },
   "mortgages.rate": {
@@ -3461,12 +3463,12 @@
    "id": "rents.free_market",
    "label": "Vapaarahoitteisten vuokra-asuntojen keskineliövuokrat",
    "unit": "€/m²/kk",
-   "period": "2026-Q2",
+   "period": "2026-Q3",
    "source": {
     "name": "Tilastokeskus",
     "table": "StatFin asvu/15fa",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__asvu/15fa.px/",
-    "updated": "2026-07-16T05:00:00Z"
+    "updated": "2026-10-15T05:00:00Z"
    },
    "columns": {
     "rent": "Keskineliövuokra, €/m²/kk",
@@ -3477,7 +3479,7 @@
      "key": "SSS",
      "label": "Koko maa",
      "values": {
-      "rent": 15.94,
+      "rent": 15.99,
       "yoy": 0.1
      }
     },
@@ -3485,7 +3487,7 @@
      "key": "pks",
      "label": "Pääkaupunkiseutu",
      "values": {
-      "rent": 20.11,
+      "rent": 20.12,
       "yoy": -0.3
      }
     },
@@ -3493,7 +3495,7 @@
      "key": "msu",
      "label": "Muu Suomi",
      "values": {
-      "rent": 13.88,
+      "rent": 13.91,
       "yoy": 0.4
      }
     },
@@ -3501,7 +3503,7 @@
      "key": "091",
      "label": "Helsinki",
      "values": {
-      "rent": 21.34,
+      "rent": 21.37,
       "yoy": -0.2
      }
     },
@@ -3509,63 +3511,63 @@
      "key": "049",
      "label": "Espoo-Kauniainen",
      "values": {
-      "rent": 18.82,
-      "yoy": 0
+      "rent": 18.86,
+      "yoy": 0.1
      }
     },
     {
      "key": "092",
      "label": "Vantaa",
      "values": {
-      "rent": 17.8,
-      "yoy": -1.2
+      "rent": 17.78,
+      "yoy": -0.9
      }
     },
     {
      "key": "837",
      "label": "Tampere",
      "values": {
-      "rent": 16.94,
-      "yoy": 1
+      "rent": 16.98,
+      "yoy": 0.7
      }
     },
     {
      "key": "853",
      "label": "Turku",
      "values": {
-      "rent": 15.63,
-      "yoy": 0.7
+      "rent": 15.64,
+      "yoy": 0.6
      }
     },
     {
      "key": "564",
      "label": "Oulu",
      "values": {
-      "rent": 14.2,
-      "yoy": -0.2
+      "rent": 14.19,
+      "yoy": -0.1
      }
     },
     {
      "key": "179",
      "label": "Jyväskylä",
      "values": {
-      "rent": 14.65,
-      "yoy": 0
+      "rent": 14.66,
+      "yoy": -0.1
      }
     },
     {
      "key": "398",
      "label": "Lahti",
      "values": {
-      "rent": 13.34,
-      "yoy": -0.2
+      "rent": 13.35,
+      "yoy": 0
      }
     },
     {
      "key": "297",
      "label": "Kuopio",
      "values": {
-      "rent": 14.98,
+      "rent": 14.97,
       "yoy": 0.2
      }
     }
