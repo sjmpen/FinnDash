@@ -1,6 +1,6 @@
 {
  "tab": "trade",
- "generated": "2026-10-21T11:59:56.128Z",
+ "generated": "2026-10-22T10:09:48.883Z",
  "series": {
   "goods.exports": {
    "id": "goods.exports",
@@ -6239,10 +6239,5 @@
    ]
   }
  },
- "errors": [
-  {
-   "id": "bop",
-   "message": "fetch failed"
-  }
- ]
+ "errors": []
 }

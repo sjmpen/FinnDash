@@ -1,6 +1,6 @@
 {
  "tab": "overview",
- "generated": "2026-10-21T11:41:52.450Z",
+ "generated": "2026-10-22T10:09:22.450Z",
  "series": {
   "cpi.yoy": {
    "id": "cpi.yoy",
@@ -5177,42 +5177,5 @@
    ]
   }
  },
- "errors": [
-  {
-   "id": "cpi",
-   "message": "fetch failed"
-  },
-  {
-   "id": "hicp",
-   "message": "fetch failed"
-  },
-  {
-   "id": "labour",
-   "message": "fetch failed"
-  },
-  {
-   "id": "gdp",
-   "message": "fetch failed"
-  },
-  {
-   "id": "output",
-   "message": "fetch failed"
-  },
-  {
-   "id": "confidence",
-   "message": "fetch failed"
-  },
-  {
-   "id": "wages",
-   "message": "fetch failed"
-  },
-  {
-   "id": "bankruptcies",
-   "message": "fetch failed"
-  },
-  {
-   "id": "debt",
-   "message": "fetch failed"
-  }
- ]
+ "errors": []
 }

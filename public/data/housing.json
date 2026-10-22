@@ -1,6 +1,6 @@
 {
  "tab": "housing",
- "generated": "2026-10-21T11:52:42.702Z",
+ "generated": "2026-10-22T10:09:40.013Z",
  "series": {
   "prices.yoy.SSS": {
    "id": "prices.yoy.SSS",
@@ -3577,30 +3577,5 @@
    ]
   }
  },
- "errors": [
-  {
-   "id": "prices",
-   "message": "fetch failed"
-  },
-  {
-   "id": "priceindex",
-   "message": "fetch failed"
-  },
-  {
-   "id": "regions",
-   "message": "fetch failed"
-  },
-  {
-   "id": "rents",
-   "message": "fetch failed"
-  },
-  {
-   "id": "construction",
-   "message": "fetch failed"
-  },
-  {
-   "id": "costs",
-   "message": "fetch failed"
-  }
- ]
+ "errors": []
 }
