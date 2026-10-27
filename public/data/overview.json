@@ -1,6 +1,6 @@
 {
  "tab": "overview",
- "generated": "2026-10-22T10:09:22.450Z",
+ "generated": "2026-10-27T10:31:23.761Z",
  "series": {
   "cpi.yoy": {
    "id": "cpi.yoy",
@@ -2801,7 +2801,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin kbar/11cc",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__kbar/11cc.px/",
-    "updated": "2026-09-28T05:00:00Z"
+    "updated": "2026-10-27T06:00:00Z"
    },
    "data": [
     ["2000-01", 3.6],
@@ -3124,7 +3124,8 @@
     ["2026-06", -5.3],
     ["2026-07", -5.3],
     ["2026-08", -3],
-    ["2026-09", -4.9]
+    ["2026-09", -4.9],
+    ["2026-10", -9.7]
    ]
   },
   "wages.nominal_yoy": {
