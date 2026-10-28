@@ -1,6 +1,6 @@
 {
  "tab": "housing",
- "generated": "2026-10-22T10:09:40.013Z",
+ "generated": "2026-10-28T11:19:56.800Z",
  "series": {
   "prices.yoy.SSS": {
    "id": "prices.yoy.SSS",
@@ -11,17 +11,18 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15iq",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15iq.px/",
-    "updated": "2026-09-29T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
     ["2026-01", -2.7],
-    ["2026-02", -2.3],
-    ["2026-03", -4],
+    ["2026-02", -2.4],
+    ["2026-03", -3.9],
     ["2026-04", -3.9],
     ["2026-05", -3.3],
-    ["2026-06", -4.2],
+    ["2026-06", -4],
     ["2026-07", -3.5],
-    ["2026-08", -3.3]
+    ["2026-08", -3.6],
+    ["2026-09", -2.2]
    ]
   },
   "prices.real_yoy.SSS": {
@@ -33,17 +34,18 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15iq",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15iq.px/",
-    "updated": "2026-09-29T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
     ["2026-01", -2.5],
-    ["2026-02", -2.9],
-    ["2026-03", -5.3],
+    ["2026-02", null],
+    ["2026-03", -5.2],
     ["2026-04", -5.3],
     ["2026-05", -5.3],
-    ["2026-06", -6.1],
-    ["2026-07", -5.5],
-    ["2026-08", -5.3]
+    ["2026-06", -6],
+    ["2026-07", -5.6],
+    ["2026-08", -5.6],
+    ["2026-09", -4.6]
    ]
   },
   "prices.sqm.SSS": {
@@ -55,7 +57,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15iq",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15iq.px/",
-    "updated": "2026-09-29T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
     ["2025-01", 2576],
@@ -70,14 +72,15 @@
     ["2025-10", 2572],
     ["2025-11", 2533],
     ["2025-12", 2483],
-    ["2026-01", 2570],
-    ["2026-02", 2531],
+    ["2026-01", 2564],
+    ["2026-02", 2527],
     ["2026-03", 2509],
-    ["2026-04", 2567],
-    ["2026-05", 2564],
-    ["2026-06", 2558],
-    ["2026-07", 2511],
-    ["2026-08", 2562]
+    ["2026-04", 2562],
+    ["2026-05", 2568],
+    ["2026-06", 2557],
+    ["2026-07", 2503],
+    ["2026-08", 2547],
+    ["2026-09", 2559]
    ]
   },
   "prices.sales.SSS": {
@@ -89,7 +92,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15iq",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15iq.px/",
-    "updated": "2026-09-29T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
     ["2025-01", 2871],
@@ -111,7 +114,8 @@
     ["2026-05", 2938],
     ["2026-06", 3013],
     ["2026-07", 3229],
-    ["2026-08", 3090]
+    ["2026-08", 3090],
+    ["2026-09", 3364]
    ]
   },
   "prices.selltime.SSS": {
@@ -123,7 +127,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15iq",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15iq.px/",
-    "updated": "2026-09-29T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
     ["2025-01", 126],
@@ -145,7 +149,8 @@
     ["2026-05", 133],
     ["2026-06", 115],
     ["2026-07", 114],
-    ["2026-08", 119]
+    ["2026-08", 119],
+    ["2026-09", 117]
    ]
   },
   "prices.yoy.pks": {
@@ -157,17 +162,18 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15iq",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15iq.px/",
-    "updated": "2026-09-29T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
-    ["2026-01", -2.8],
-    ["2026-02", -2.8],
-    ["2026-03", -5.6],
-    ["2026-04", -5],
-    ["2026-05", -3.7],
-    ["2026-06", -4.1],
-    ["2026-07", -3.6],
-    ["2026-08", -3.5]
+    ["2026-01", -2.7],
+    ["2026-02", -2.9],
+    ["2026-03", -5.3],
+    ["2026-04", -4.9],
+    ["2026-05", -3.6],
+    ["2026-06", -4],
+    ["2026-07", -3.4],
+    ["2026-08", -3.6],
+    ["2026-09", -2]
    ]
   },
   "prices.real_yoy.pks": {
@@ -179,17 +185,18 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15iq",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15iq.px/",
-    "updated": "2026-09-29T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
     ["2026-01", -2.6],
-    ["2026-02", -3.4],
-    ["2026-03", -6.9],
+    ["2026-02", null],
+    ["2026-03", -6.5],
     ["2026-04", -6.3],
-    ["2026-05", -5.6],
-    ["2026-06", -6.1],
-    ["2026-07", -5.6],
-    ["2026-08", -5.6]
+    ["2026-05", -5.5],
+    ["2026-06", -5.9],
+    ["2026-07", -5.5],
+    ["2026-08", -5.6],
+    ["2026-09", -4.4]
    ]
   },
   "prices.sqm.pks": {
@@ -201,7 +208,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15iq",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15iq.px/",
-    "updated": "2026-09-29T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
     ["2025-01", 4463],
@@ -216,14 +223,15 @@
     ["2025-10", 4304],
     ["2025-11", 4249],
     ["2025-12", 4222],
-    ["2026-01", 4272],
-    ["2026-02", 4197],
-    ["2026-03", 4206],
-    ["2026-04", 4226],
-    ["2026-05", 4275],
-    ["2026-06", 4259],
-    ["2026-07", 4085],
-    ["2026-08", 4286]
+    ["2026-01", 4258],
+    ["2026-02", 4189],
+    ["2026-03", 4199],
+    ["2026-04", 4247],
+    ["2026-05", 4277],
+    ["2026-06", 4257],
+    ["2026-07", 4083],
+    ["2026-08", 4287],
+    ["2026-09", 4253]
    ]
   },
   "prices.sales.pks": {
@@ -235,7 +243,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15iq",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15iq.px/",
-    "updated": "2026-09-29T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
     ["2025-01", 867],
@@ -257,7 +265,8 @@
     ["2026-05", 895],
     ["2026-06", 926],
     ["2026-07", 928],
-    ["2026-08", 865]
+    ["2026-08", 865],
+    ["2026-09", 985]
    ]
   },
   "prices.selltime.pks": {
@@ -269,7 +278,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15iq",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15iq.px/",
-    "updated": "2026-09-29T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
     ["2025-01", 116],
@@ -291,7 +300,8 @@
     ["2026-05", 125],
     ["2026-06", 106],
     ["2026-07", 105],
-    ["2026-08", 108]
+    ["2026-08", 108],
+    ["2026-09", 114]
    ]
   },
   "prices.yoy.msu": {
@@ -303,17 +313,18 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15iq",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15iq.px/",
-    "updated": "2026-09-29T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
-    ["2026-01", -2.6],
-    ["2026-02", -1.8],
-    ["2026-03", -2.4],
-    ["2026-04", -2.8],
-    ["2026-05", -3],
-    ["2026-06", -4.2],
-    ["2026-07", -3.4],
-    ["2026-08", -3]
+    ["2026-01", -2.7],
+    ["2026-02", -1.9],
+    ["2026-03", -2.6],
+    ["2026-04", -2.9],
+    ["2026-05", -3.1],
+    ["2026-06", -4.1],
+    ["2026-07", -3.7],
+    ["2026-08", -3.6],
+    ["2026-09", -2.4]
    ]
   },
   "prices.real_yoy.msu": {
@@ -325,17 +336,18 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15iq",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15iq.px/",
-    "updated": "2026-09-29T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
-    ["2026-01", -2.4],
-    ["2026-02", -2.4],
-    ["2026-03", -3.7],
-    ["2026-04", -4.3],
-    ["2026-05", -5],
+    ["2026-01", -2.5],
+    ["2026-02", null],
+    ["2026-03", -3.9],
+    ["2026-04", -4.4],
+    ["2026-05", -5.1],
     ["2026-06", -6.1],
-    ["2026-07", -5.4],
-    ["2026-08", -5.1]
+    ["2026-07", -5.7],
+    ["2026-08", -5.7],
+    ["2026-09", -4.8]
    ]
   },
   "prices.sqm.msu": {
@@ -347,7 +359,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15iq",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15iq.px/",
-    "updated": "2026-09-29T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
     ["2025-01", 1796],
@@ -362,14 +374,15 @@
     ["2025-10", 1857],
     ["2025-11", 1828],
     ["2025-12", 1768],
-    ["2026-01", 1826],
-    ["2026-02", 1835],
-    ["2026-03", 1815],
-    ["2026-04", 1858],
-    ["2026-05", 1836],
-    ["2026-06", 1836],
-    ["2026-07", 1864],
-    ["2026-08", 1846]
+    ["2026-01", 1825],
+    ["2026-02", 1834],
+    ["2026-03", 1817],
+    ["2026-04", 1852],
+    ["2026-05", 1840],
+    ["2026-06", 1837],
+    ["2026-07", 1855],
+    ["2026-08", 1833],
+    ["2026-09", 1853]
    ]
   },
   "prices.sales.msu": {
@@ -381,7 +394,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15iq",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15iq.px/",
-    "updated": "2026-09-29T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
     ["2025-01", 2001],
@@ -403,7 +416,8 @@
     ["2026-05", 2043],
     ["2026-06", 2087],
     ["2026-07", 2300],
-    ["2026-08", 2225]
+    ["2026-08", 2225],
+    ["2026-09", 2379]
    ]
   },
   "prices.selltime.msu": {
@@ -415,7 +429,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15iq",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15iq.px/",
-    "updated": "2026-09-29T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
     ["2025-01", 130],
@@ -437,7 +451,8 @@
     ["2026-05", 136],
     ["2026-06", 119],
     ["2026-07", 118],
-    ["2026-08", 124]
+    ["2026-08", 124],
+    ["2026-09", 118]
    ]
   },
   "priceindex.nominal.SSS": {
@@ -449,7 +464,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15it",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15it.px/",
-    "updated": "2026-07-28T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
     ["2005-Q1", 75.3],
@@ -536,8 +551,9 @@
     ["2025-Q2", 97.2],
     ["2025-Q3", 95.8],
     ["2025-Q4", 94.6],
-    ["2026-Q1", 93.4],
-    ["2026-Q2", 93.5]
+    ["2026-Q1", 93.2],
+    ["2026-Q2", 93.3],
+    ["2026-Q3", 92.6]
    ]
   },
   "priceindex.yoy.SSS": {
@@ -549,7 +565,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15it",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15it.px/",
-    "updated": "2026-07-28T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
     ["2006-Q1", 7.7],
@@ -632,8 +648,9 @@
     ["2025-Q2", -2.2],
     ["2025-Q3", -3.2],
     ["2025-Q4", -3.5],
-    ["2026-Q1", -3.1],
-    ["2026-Q2", -3.9]
+    ["2026-Q1", -3.3],
+    ["2026-Q2", -4.1],
+    ["2026-Q3", -3.3]
    ]
   },
   "priceindex.real.SSS": {
@@ -645,7 +662,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15it",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15it.px/",
-    "updated": "2026-07-28T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
     ["2005-Q1", 90.4],
@@ -732,8 +749,9 @@
     ["2025-Q2", 79.2],
     ["2025-Q3", 78.1],
     ["2025-Q4", 77.1],
-    ["2026-Q1", 75.5],
-    ["2026-Q2", 75.2]
+    ["2026-Q1", 75.4],
+    ["2026-Q2", 74.6],
+    ["2026-Q3", 73.8]
    ]
   },
   "priceindex.nominal.pks": {
@@ -745,7 +763,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15it",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15it.px/",
-    "updated": "2026-07-28T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
     ["2005-Q1", 69.1],
@@ -832,8 +850,9 @@
     ["2025-Q2", 104.7],
     ["2025-Q3", 102.8],
     ["2025-Q4", 101.7],
-    ["2026-Q1", 100],
-    ["2026-Q2", 100]
+    ["2026-Q1", 99.9],
+    ["2026-Q2", 100],
+    ["2026-Q3", 99.7]
    ]
   },
   "priceindex.yoy.pks": {
@@ -845,7 +864,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15it",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15it.px/",
-    "updated": "2026-07-28T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
     ["2006-Q1", 8.4],
@@ -928,8 +947,9 @@
     ["2025-Q2", -1.5],
     ["2025-Q3", -2.7],
     ["2025-Q4", -3.4],
-    ["2026-Q1", -3.9],
-    ["2026-Q2", -4.4]
+    ["2026-Q1", -4],
+    ["2026-Q2", -4.4],
+    ["2026-Q3", -3.1]
    ]
   },
   "priceindex.real.pks": {
@@ -941,7 +961,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15it",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15it.px/",
-    "updated": "2026-07-28T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
     ["2005-Q1", 82.9],
@@ -1029,7 +1049,8 @@
     ["2025-Q3", 83.7],
     ["2025-Q4", 82.9],
     ["2026-Q1", 80.8],
-    ["2026-Q2", 80.5]
+    ["2026-Q2", 79.9],
+    ["2026-Q3", 79.4]
    ]
   },
   "priceindex.nominal.msu": {
@@ -1041,7 +1062,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15it",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15it.px/",
-    "updated": "2026-07-28T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
     ["2005-Q1", 81.1],
@@ -1128,8 +1149,9 @@
     ["2025-Q2", 90.5],
     ["2025-Q3", 89.4],
     ["2025-Q4", 88],
-    ["2026-Q1", 87.2],
-    ["2026-Q2", 87.4]
+    ["2026-Q1", 87],
+    ["2026-Q2", 87.1],
+    ["2026-Q3", 86.2]
    ]
   },
   "priceindex.yoy.msu": {
@@ -1141,7 +1163,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15it",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15it.px/",
-    "updated": "2026-07-28T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
     ["2006-Q1", 7.1],
@@ -1224,8 +1246,9 @@
     ["2025-Q2", -2.9],
     ["2025-Q3", -3.7],
     ["2025-Q4", -3.7],
-    ["2026-Q1", -2.4],
-    ["2026-Q2", -3.4]
+    ["2026-Q1", -2.6],
+    ["2026-Q2", -3.7],
+    ["2026-Q3", -3.6]
    ]
   },
   "priceindex.real.msu": {
@@ -1237,7 +1260,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15it",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15it.px/",
-    "updated": "2026-07-28T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "data": [
     ["2005-Q1", 97.4],
@@ -1324,8 +1347,9 @@
     ["2025-Q2", 73.7],
     ["2025-Q3", 72.8],
     ["2025-Q4", 71.8],
-    ["2026-Q1", 70.5],
-    ["2026-Q2", 70.4]
+    ["2026-Q1", 70.4],
+    ["2026-Q2", 69.6],
+    ["2026-Q3", 68.7]
    ]
   },
   "rents.yoy": {
@@ -3285,12 +3309,12 @@
    "id": "regions.sqm",
    "label": "Vanhojen osakeasuntojen neliöhinnat maakunnittain",
    "unit": "€/m²",
-   "period": "2026-Q2",
+   "period": "2026-Q3",
    "source": {
     "name": "Tilastokeskus",
     "table": "StatFin ashi/15is",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__ashi/15is.px/",
-    "updated": "2026-07-28T05:00:00Z"
+    "updated": "2026-10-28T06:00:00Z"
    },
    "columns": {
     "sqm": "Neliöhinta, €/m²",
@@ -3302,162 +3326,162 @@
      "key": "MK01",
      "label": "Uusimaa",
      "values": {
-      "sqm": 3763,
-      "yoy": -4.4,
-      "sales": 4391
+      "sqm": 3695,
+      "yoy": -2.8,
+      "sales": 4382
      }
     },
     {
      "key": "MK02",
      "label": "Varsinais-Suomi",
      "values": {
-      "sqm": 2263,
-      "yoy": -1.5,
-      "sales": 1054
+      "sqm": 2217,
+      "yoy": -6.4,
+      "sales": 1129
      }
     },
     {
      "key": "MK04",
      "label": "Satakunta",
      "values": {
-      "sqm": 1161,
-      "yoy": -7.7,
-      "sales": 345
+      "sqm": 1103,
+      "yoy": 0.5,
+      "sales": 410
      }
     },
     {
      "key": "MK05",
      "label": "Kanta-Häme",
      "values": {
-      "sqm": 1481,
-      "yoy": -7.2,
-      "sales": 393
+      "sqm": 1402,
+      "yoy": -1,
+      "sales": 401
      }
     },
     {
      "key": "MK06",
      "label": "Pirkanmaa",
      "values": {
-      "sqm": 2527,
-      "yoy": -2.9,
-      "sales": 1379
+      "sqm": 2542,
+      "yoy": -3.3,
+      "sales": 1467
      }
     },
     {
      "key": "MK07",
      "label": "Päijät-Häme",
      "values": {
-      "sqm": 1419,
-      "yoy": -6.4,
-      "sales": 505
+      "sqm": 1387,
+      "yoy": -5.9,
+      "sales": 517
      }
     },
     {
      "key": "MK08",
      "label": "Kymenlaakso",
      "values": {
-      "sqm": 914,
-      "yoy": -4,
-      "sales": 361
+      "sqm": 937,
+      "yoy": -5.8,
+      "sales": 349
      }
     },
     {
      "key": "MK09",
      "label": "Etelä-Karjala",
      "values": {
-      "sqm": 1155,
-      "yoy": -8.6,
-      "sales": 207
+      "sqm": 1204,
+      "yoy": -9.5,
+      "sales": 219
      }
     },
     {
      "key": "MK10",
      "label": "Etelä-Savo",
      "values": {
-      "sqm": 1018,
-      "yoy": -9,
-      "sales": 252
+      "sqm": 969,
+      "yoy": -5.3,
+      "sales": 280
      }
     },
     {
      "key": "MK11",
      "label": "Pohjois-Savo",
      "values": {
-      "sqm": 1471,
-      "yoy": -4.3,
-      "sales": 485
+      "sqm": 1543,
+      "yoy": -1.4,
+      "sales": 566
      }
     },
     {
      "key": "MK12",
      "label": "Pohjois-Karjala",
      "values": {
-      "sqm": 1348,
-      "yoy": -2.4,
-      "sales": 282
+      "sqm": 1410,
+      "yoy": -3.4,
+      "sales": 351
      }
     },
     {
      "key": "MK13",
      "label": "Keski-Suomi",
      "values": {
-      "sqm": 1540,
-      "yoy": -4.2,
-      "sales": 546
+      "sqm": 1480,
+      "yoy": -5.1,
+      "sales": 536
      }
     },
     {
      "key": "MK14",
      "label": "Etelä-Pohjanmaa",
      "values": {
-      "sqm": 1337,
-      "yoy": -6.9,
-      "sales": 222
+      "sqm": 1503,
+      "yoy": -5.6,
+      "sales": 237
      }
     },
     {
      "key": "MK15",
      "label": "Pohjanmaa",
      "values": {
-      "sqm": 1740,
-      "yoy": -2.7,
-      "sales": 286
+      "sqm": 1782,
+      "yoy": -0.1,
+      "sales": 432
      }
     },
     {
      "key": "MK16",
      "label": "Keski-Pohjanmaa",
      "values": {
-      "sqm": 1601,
-      "yoy": -0.7,
-      "sales": 115
+      "sqm": 1804,
+      "yoy": 0.2,
+      "sales": 95
      }
     },
     {
      "key": "MK17",
      "label": "Pohjois-Pohjanmaa",
      "values": {
-      "sqm": 1873,
-      "yoy": -0.8,
-      "sales": 805
+      "sqm": 1870,
+      "yoy": -1.9,
+      "sales": 937
      }
     },
     {
      "key": "MK18",
      "label": "Kainuu",
      "values": {
-      "sqm": 1090,
-      "yoy": -4.2,
-      "sales": 114
+      "sqm": 945,
+      "yoy": -9.8,
+      "sales": 132
      }
     },
     {
      "key": "MK19",
      "label": "Lappi",
      "values": {
-      "sqm": 1488,
-      "yoy": 7.8,
-      "sales": 364
+      "sqm": 1566,
+      "yoy": 2.1,
+      "sales": 483
      }
     }
    ]
