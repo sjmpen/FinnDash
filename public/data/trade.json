@@ -1,6 +1,6 @@
 {
  "tab": "trade",
- "generated": "2026-10-29T11:30:25.744Z",
+ "generated": "2026-10-31T20:20:19.657Z",
  "series": {
   "goods.exports": {
    "id": "goods.exports",
@@ -6261,5 +6261,18 @@
    ]
   }
  },
- "errors": []
+ "errors": [
+  {
+   "id": "goods",
+   "message": "502 Bad Gateway"
+  },
+  {
+   "id": "partners",
+   "message": "502 Bad Gateway"
+  },
+  {
+   "id": "products",
+   "message": "502 Bad Gateway"
+  }
+ ]
 }
