@@ -1,6 +1,6 @@
 {
  "tab": "housing",
- "generated": "2026-11-03T12:51:02.067Z",
+ "generated": "2026-11-03T14:05:43.145Z",
  "series": {
   "prices.yoy.SSS": {
    "id": "prices.yoy.SSS",
@@ -3604,10 +3604,5 @@
    ]
   }
  },
- "errors": [
-  {
-   "id": "mortgages",
-   "message": "504 Gateway Time-out"
-  }
- ]
+ "errors": []
 }
