@@ -1,6 +1,6 @@
 {
  "tab": "trade",
- "generated": "2026-11-03T12:52:20.774Z",
+ "generated": "2026-11-04T12:58:51.430Z",
  "series": {
   "goods.exports": {
    "id": "goods.exports",
@@ -6261,18 +6261,5 @@
    ]
   }
  },
- "errors": [
-  {
-   "id": "goods",
-   "message": "fetch failed"
-  },
-  {
-   "id": "partners",
-   "message": "fetch failed"
-  },
-  {
-   "id": "products",
-   "message": "fetch failed"
-  }
- ]
+ "errors": []
 }

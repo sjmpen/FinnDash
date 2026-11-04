@@ -1,6 +1,6 @@
 {
  "tab": "overview",
- "generated": "2026-11-02T13:28:18.047Z",
+ "generated": "2026-11-04T12:58:29.018Z",
  "series": {
   "cpi.yoy": {
    "id": "cpi.yoy",
@@ -681,7 +681,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin khi/15b9",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__khi/15b9.px/",
-    "updated": "2026-10-02T05:00:00Z"
+    "updated": "2026-11-04T06:00:00Z"
    },
    "data": [
     ["2026-01", 1],
@@ -692,7 +692,8 @@
     ["2026-06", 2.7],
     ["2026-07", 2.6],
     ["2026-08", 2.4],
-    ["2026-09", 2.6]
+    ["2026-09", 2.6],
+    ["2026-10", 3.4]
    ]
   },
   "labour.unemp_trend": {
