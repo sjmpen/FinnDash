@@ -1,6 +1,6 @@
 {
  "tab": "overview",
- "generated": "2026-11-13T13:04:53.992Z",
+ "generated": "2026-11-18T13:55:34.005Z",
  "series": {
   "cpi.yoy": {
    "id": "cpi.yoy",
@@ -3301,7 +3301,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin kony/13fb",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__kony/13fb.px/",
-    "updated": "2026-10-20T05:00:00Z"
+    "updated": "2026-11-18T06:00:00Z"
    },
    "data": [
     ["2005-01", 2410],
@@ -3564,7 +3564,8 @@
     ["2026-06", 4007],
     ["2026-07", 3999],
     ["2026-08", 4021],
-    ["2026-09", 4076]
+    ["2026-09", 4076],
+    ["2026-10", 4092]
    ]
   },
   "bankruptcies.monthly": {
@@ -3576,7 +3577,7 @@
     "name": "Tilastokeskus",
     "table": "StatFin kony/13fb",
     "url": "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__kony/13fb.px/",
-    "updated": "2026-10-20T05:00:00Z"
+    "updated": "2026-11-18T06:00:00Z"
    },
    "data": [
     ["2005-01", 223],
@@ -3839,7 +3840,8 @@
     ["2026-06", 332],
     ["2026-07", 243],
     ["2026-08", 296],
-    ["2026-09", 344]
+    ["2026-09", 344],
+    ["2026-10", 364]
    ]
   },
   "debt.gdp_ratio": {
